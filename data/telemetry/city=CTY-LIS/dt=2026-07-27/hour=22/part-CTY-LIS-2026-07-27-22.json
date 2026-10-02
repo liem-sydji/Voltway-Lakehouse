@@ -1,0 +1,9 @@
+{"event_id":"ev_000037809","vehicle_id":"VH-01156","ride_id":"RIDE-20260727-0107005","ts":"1785187759000","lat":38.725792,"lon":-9.138065,"speed_kph":16.6,"battery":30.9,"signal_dbm":-115,"is_locked":true}
+{"event_id":"ev_000037806","vehicle_id":"VH-01156","ride_id":"RIDE-20260727-0107005","ts":"1785187579000","lat":38.725232,"lon":-9.13838,"speed_kph":12.8,"battery":0.3148,"signal_dbm":-114,"is_locked":true}
+{"event_id":"ev_000037806","vehicle_id":"VH-01156","ride_id":"RIDE-20260727-0107005","ts":"1785187579000","lat":38.725232,"lon":-9.13838,"speed_kph":12.8,"battery":0.3148,"signal_dbm":-114,"is_locked":true}
+{"event_id":"ev_000037805","vehicle_id":"VH-01185","ride_id":"RIDE-20260727-0106982","ts":"1785189573000","lat":38.748558,"lon":-9.131541,"speed_kph":10.3,"battery":51.4,"signal_dbm":-67,"is_locked":true}
+{"event_id":"ev_000037804","vehicle_id":"VH-01185","ride_id":"RIDE-20260727-0106982","ts":"1785189513000","lat":38.747832,"lon":-9.13158,"speed_kph":9.5,"battery":0.5179,"signal_dbm":-61,"is_locked":false}
+{"event_id":"ev_000037807","vehicle_id":"VH-01156","ride_id":"RIDE-20260727-0107005","ts":"1785187639000","lat":38.726039,"lon":-9.138608,"speed_kph":10.7,"battery":0.3133,"signal_dbm":-87,"is_locked":false}
+{"event_id":"ev_000037802","vehicle_id":"VH-01185","ride_id":"RIDE-20260727-0106982","ts":"1785189393000","lat":38.747462,"lon":-9.130314,"speed_kph":18.6,"battery":52.3,"signal_dbm":-74,"is_locked":true}
+{"event_id":"ev_000037803","vehicle_id":"VH-01185","ride_id":"RIDE-20260727-0106982","ts":"1785189453000","lat":38.748116,"lon":-9.130824,"speed_kph":11.2,"battery":51.9,"signal_dbm":-78,"is_locked":false}
+{"event_id":"ev_000037808","vehicle_id":"VH-01156","ride_id":"RIDE-20260727-0107005","ts":"1785187699000","lat":38.726213,"lon":-9.138574,"speed_kph":15.0,"battery":31.0,"signal_dbm":-100,"is_locked":false}

@@ -1,0 +1,18 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-06-08T16:28:25Z,RD-000729,OP-002,Antoine,Benali,antoine.benali655@correo.es,CTY-BCN,ES,2025-05-19,PLAN-PAYG,true,active,1991
+I,2026-06-08T16:47:41Z,RD-007158,OP-004,Freja,Moreno,freja.moreno15@correo.es,CTY-LIS,PT,2026-06-08,PLAN-PAYG,true,active,2002
+U,2026-06-08T20:08:42Z,RD-004480,OP-001,Tiago,Novak,tiago.novak720@mail.com,CTY-LYO,FR,2025-03-11,PLAN-COMMUTE,true,active,1970
+U,2026-06-08T02:33:58Z,RD-000025,OP-001,Thomas,Benali,thomas.benali399@outlook.com,CTY-BCN,ES,2025-10-31,PLAN-PAYG,false,active,1972
+I,2026-06-08T16:41:58Z,RD-000656,OP-001,Nadia,Moreno,nadia.moreno325@mail.com,CTY-BCN,ES,2026-06-08,PLAN-PAYG,false,active,1983
+U,2026-06-08T09:20:13Z,RD-002497,OP-001,Emil,Bernard,emil.bernard224@gmx.de,CTY-MAD,esp,2026-04-23,PLAN-TOURIST,false,active,2006
+I,2026-06-08T18:17:00Z,RD-001921,OP-001,Oskar,Haddad,oskar.haddad171@proton.me,CTY-MAD,esp,2026-06-08,PLAN-PAYG,false,active,1978
+U,2026-06-08T19:27:21Z,RD-005989,OP-003,Joan,Roux,joan.roux87@correo.es,CTY-STO,SE,2025-01-01,PLAN-STUDENT,false,active,1986
+U,2026-06-08T19:21:39Z,RD-002413,OP-001,Tiago,Almeida,tiago.almeida598@correo.es,CTY-MAD,esp,2026-02-04,PLAN-PAYG,false,active,2000
+D,2026-06-08T00:00:00Z,RD-007599,OP-004,Yasmin,Vidal,REDACTED,CTY-LIS,PT,2025-04-14,PLAN-PAYG,false,deleted,1981
+U,2026-06-08T19:13:40Z,RD-005290,OP-001,Lucia,Moreno,lucia.moreno357@proton.me,CTY-BCN,fra,2024-05-05,PLAN-STUDENT,true,active,1998
+U,2026-06-08T01:20:25Z,RD-005047,OP-001,Thomas,Costa,thomas.costa133@proton.me,CTY-TLS,fra,2024-11-14,PLAN-COMMUTE,true,active,2004
+U,2026-06-08T20:12:56Z,RD-006501,OP-003,Ivan,Fischer,ivan.fischer932@proton.me,CTY-STO,SE,2024-05-26,PLAN-PAYG,false,active,1976
+U,2026-06-08T19:15:19Z,RD-004442,OP-001,Nils,Almeida,nils.almeida826@mail.com,CTY-LYO,FR,2025-11-30,PLAN-TOURIST,false,active,1966
+U,2026-06-08T00:35:24Z,RD-007770,OP-004,Elin,Haddad,  elin.haddad704@mail.com ,CTY-LIS,PT,2025-01-08,PLAN-CORP,false,active,1975
+U,2026-06-08T17:44:09Z,RD-001147,OP-001,Sofia,Conti,sofia.conti530@gmx.de,CTY-MAD,ES,2026-03-06,PLAN-COMMUTE,false,active,1999
+U,2026-06-08T01:50:13Z,RD-006036,OP-003,Nadia,Fischer,nadia.fischer469@proton.me,CTY-STO,SE,2024-02-19,PLAN-PAYG,false,active,1993

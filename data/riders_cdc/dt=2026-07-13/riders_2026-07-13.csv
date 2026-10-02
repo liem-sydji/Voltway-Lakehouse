@@ -1,0 +1,15 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-07-13T19:39:03Z,RD-005251,OP-001,Rui,Martin,rui.martin489@mail.com,CTY-TLS,fra,2026-04-22,PLAN-TOURIST,true,active,1989
+U,2026-07-13T23:18:45Z,RD-003203,OP-001,Freja,Weber,freja.weber381@mail.com,CTY-MAD,esp,2024-05-14,PLAN-STUDENT,true,active,2005
+U,2026-07-13T10:50:30Z,RD-003593,OP-001,Louis,Bernard,louis.bernard792@correo.es,CTY-VLC,Spain,2025-02-03,PLAN-COMMUTE,false,active,1999
+U,2026-07-13T20:20:50Z,RD-002686,OP-001,Louis,Haddad,  louis.haddad128@gmx.de ,CTY-MAD,esp,2025-12-27,PLAN-STUDENT,false,active,1978
+U,2026-07-13T20:43:30Z,RD-001891,OP-001,Emil,Roux,emil.roux72@correo.es,CTY-MAD,esp,2025-08-08,PLAN-UNLIMITED,false,active,1987
+U,2026-07-13T08:15:49Z,RD-005553,OP-003,Sofia,Pereira,sofia.pereira674@outlook.com,CTY-STO,SE,2025-09-02,PLAN-PAYG,true,active,1991
+U,2026-07-13T10:32:28Z,RD-004474,OP-001,Ines,Martin,ines.conti179@mail.com,CTY-LYO,FR,2026-03-05,PLAN-PAYG,false,active,1994
+U,2026-07-13T04:04:02Z,RD-001758,OP-001,Astrid,Ferrer,astrid.ferrer148@proton.me,CTY-MAD,esp,2024-11-21,PLAN-PAYG,true,active,1988
+U,2026-07-13T13:17:34Z,RD-002632,OP-001,Diego,Novak,diego.novak23@outlook.com,CTY-MAD,esp,2026-03-15,PLAN-PAYG,false,active,2007
+U,2026-07-13T14:53:41Z,RD-005602,OP-003,Emil,Berg,emil.berg181@outlook.com,CTY-TLS,SE,2024-11-25,PLAN-PAYG,false,active,1991
+U,2026-07-13T05:56:07Z,RD-001746,OP-001,Manon,Dubois,manon.dubois131@outlook.com,CTY-MAD,esp,2024-01-30,PLAN-COMMUTE,true,active,1963
+U,2026-07-13T21:01:18Z,RD-007668,OP-004,Ines,Conti,ines.conti598@correo.es,CTY-LIS,PT,2024-03-10,PLAN-CORP,true,active,1986
+D,2026-07-13T00:00:00Z,RD-003420,OP-001,Lucia,Lopez,REDACTED,CTY-VLC,Spain,2024-12-13,PLAN-PAYG,false,deleted,1992
+U,2026-07-13T00:51:16Z,RD-000360,OP-002,Astrid,Roux,  astrid.roux524@outlook.com ,CTY-BCN,ES,2024-10-10,PLAN-PAYG,false,active,1965

@@ -1,0 +1,14 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-07-05T11:52:07Z,RD-005254,OP-001,Astrid,Lopez,astrid.costa914@correo.es,CTY-TLS,fra,2025-07-13,PLAN-TOURIST,false,active,1972
+U,2026-07-05T01:16:49Z,RD-005099,OP-001,Karim,Andersson,karim.andersson649@outlook.com,CTY-TLS,fra,2025-10-16,PLAN-UNLIMITED,true,active,1982
+U,2026-07-05T03:13:25Z,RD-003289,OP-001,Omar,Lopez,OMAR.LOPEZ358@PROTON.ME,CTY-VLC,Spain,2024-12-02,PLAN-CORP,false,active,1977
+U,2026-07-05T17:25:43Z,RD-006888,OP-003,Sofia,Silva,sofia.serra367@proton.me,CTY-GOT,SWE,2025-03-25,PLAN-COMMUTE,false,active,2005
+U,2026-07-05T08:39:43Z,RD-006827,OP-003,Elin,Roux,elin.roux829@gmx.de,CTY-GOT,SWE,2024-09-09,PLAN-STUDENT,false,active,1969
+U,2026-07-05T19:20:48Z,RD-000053,OP-002,Marta,Haddad,marta.haddad738@proton.me,CTY-GOT,ES,2024-04-24,PLAN-PAYG,true,active,1999
+U,2026-07-05T14:18:32Z,RD-004516,OP-001,Freja,Novak,freja.novak357@proton.me,CTY-LYO,FR,2025-03-05,PLAN-PAYG,true,active,1990
+U,2026-07-05T21:00:39Z,RD-001258,OP-002,Astrid,Garcia,astrid.garcia429@proton.me,CTY-BCN,ES,2026-05-17,PLAN-PAYG,false,active,1971
+U,2026-07-05T01:03:51Z,RD-000647,OP-002,Astrid,Rossi,astrid.almeida713@outlook.com,CTY-BCN,ES,2024-05-04,PLAN-UNLIMITED,true,active,2000
+U,2026-07-05T00:17:05Z,RD-003875,OP-001,Karim,Novak,karim.novak279@outlook.com,CTY-VLC,Spain,2024-09-23,PLAN-UNLIMITED,false,active,1987
+U,2026-07-05T14:58:46Z,RD-003454,OP-001,Oskar,Lindqvist,oskar.lindqvist284@correo.es,CTY-VLC,Spain,2026-03-31,PLAN-PAYG,false,active,2008
+U,2026-07-05T09:16:38Z,RD-001750,OP-001,Camille,Bernard,camille.bernard229@mail.com,CTY-VLC,esp,2025-09-16,PLAN-PAYG,false,active,1993
+U,2026-07-05T05:18:07Z,RD-003550,OP-001,Freja,Kowalski,REDACTED,CTY-VLC,Spain,2025-05-17,PLAN-UNLIMITED,false,deleted,1999

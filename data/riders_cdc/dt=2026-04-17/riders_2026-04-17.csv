@@ -1,0 +1,18 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-04-17T04:46:09Z,RD-003646,OP-001,Pablo,Vidal,pablo.vidal557@mail.com,CTY-VLC,Spain,2024-04-18,PLAN-PAYG,false,active,1994
+I,2026-04-17T08:14:46Z,RD-003725,OP-001,Manon,Serra,manon.serra829@gmx.de,CTY-VLC,Spain,2026-04-17,PLAN-COMMUTE,false,active,1999
+I,2026-04-17T03:50:59Z,RD-003431,OP-001,Diego,Andersson,diego.andersson651@mail.com,CTY-VLC,Spain,2026-04-17,PLAN-UNLIMITED,false,active,1962
+I,2026-04-17T04:25:22Z,RD-006940,OP-003,Aina,Almeida,aina.almeida558@outlook.com,CTY-GOT,SWE,2026-04-17,PLAN-UNLIMITED,false,active,1965
+U,2026-04-17T04:04:23Z,RD-004697,OP-001,Sofia,Bernard,sofia.bernard674@proton.me,CTY-LYO,FR,2024-06-20,PLAN-UNLIMITED,true,active,1969
+U,2026-04-17T08:25:46Z,RD-000694,OP-002,Aina,Conti,aina.conti948@outlook.com,CTY-TLS,ES,2026-01-30,PLAN-COMMUTE,true,active,1974
+U,2026-04-17T09:34:54Z,RD-001185,OP-002,Manon,Ferrer,manon.ferrer605@outlook.com,CTY-BCN,ES,2024-08-01,PLAN-TOURIST,true,active,1994
+U,2026-04-17T22:28:01Z,RD-002718,OP-001,Manon,Benali,manon.benali106@proton.me,CTY-MAD,esp,2025-05-29,PLAN-TOURIST,true,active,1993
+U,2026-04-17T01:51:36Z,RD-005872,OP-003,Nora,Moreno,  nora.moreno229@outlook.com ,CTY-STO,SE,2026-02-19,PLAN-PAYG,true,active,1993
+U,2026-04-17T21:53:06Z,RD-005188,OP-001,Pablo,Serra,  pablo.serra230@outlook.com ,CTY-TLS,fra,2026-04-12,PLAN-PAYG,false,active,1978
+U,2026-04-17T00:51:31Z,RD-006177,OP-003,Hugo,Berg,hugo.berg466@gmx.de,CTY-VLC,SE,2026-02-11,PLAN-PAYG,false,active,2007
+U,2026-04-17T15:31:07Z,RD-004878,OP-001,Joan,Novak,joan.novak454@outlook.com,CTY-LYO,FR,2024-02-26,PLAN-PAYG,false,active,1983
+U,2026-04-17T11:51:03Z,RD-003664,OP-001,Thomas,Pereira,thomas.pereira603@mail.com,CTY-VLC,Spain,2025-08-13,PLAN-COMMUTE,false,active,1973
+U,2026-04-17T07:37:43Z,RD-003281,OP-001,Ines,Pereira,ines.pereira36@mail.com,CTY-BCN,Spain,2024-10-09,PLAN-PAYG,false,active,1970
+I,2026-04-17T08:14:41Z,RD-002889,OP-001,Freja,Martin,freja.martin943@outlook.com,CTY-MAD,esp,2026-04-17,PLAN-PAYG,true,active,2006
+I,2026-04-17T03:34:35Z,RD-007884,OP-004,Nora,Martin,nora.martin195@proton.me,CTY-LIS,PT,2026-04-17,PLAN-COMMUTE,false,active,1992
+U,2026-04-17T20:36:16Z,RD-002566,OP-001,Ivan,Costa,ivan.costa121@outlook.com,CTY-MAD,esp,2025-02-25,PLAN-COMMUTE,true,active,2004

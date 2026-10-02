@@ -1,0 +1,14 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-07-18T06:51:07Z,RD-002909,OP-001,Karim,Benali,karim.benali307@outlook.com,CTY-MAD,esp,2025-02-05,PLAN-STUDENT,false,active,1992
+U,2026-07-18T16:13:37Z,RD-005119,OP-001,Ines,Silva,ines.silva520@outlook.com,CTY-TLS,fra,2024-06-13,PLAN-COMMUTE,true,active,1975
+U,2026-07-18T21:49:51Z,RD-006117,OP-003,Nora,Conti,nora.conti972@gmx.de,CTY-STO,SE,2024-04-15,PLAN-PAYG,true,active,1989
+U,2026-07-18T06:14:00Z,RD-004241,OP-001,Diego,Martin,diego.martin871@gmx.de,CTY-LYO,FR,2025-11-19,PLAN-UNLIMITED,false,active,1962
+U,2026-07-18T13:56:53Z,RD-007340,OP-004,Camille,Garcia,camille.garcia223@proton.me,CTY-LIS,PT,2025-01-10,PLAN-PAYG,true,active,2002
+U,2026-07-18T23:14:05Z,RD-007119,OP-003,Lucia,Bernard,lucia.bernard153@outlook.com,CTY-GOT,SWE,2026-01-02,PLAN-COMMUTE,true,active,1982
+U,2026-07-18T09:48:02Z,RD-002530,OP-001,Ines,Haddad,INES.HADDAD903@GMX.DE,CTY-MAD,esp,2026-01-28,PLAN-PAYG,true,active,1998
+U,2026-07-18T13:50:25Z,RD-006465,OP-003,Manon,Novak,manon.novak155@gmx.de,CTY-STO,SE,2025-08-09,PLAN-STUDENT,true,active,1990
+U,2026-07-18T04:29:54Z,RD-004239,OP-001,Sofia,Serra,sofia.serra431@gmx.de,CTY-LYO,FR,2025-04-14,PLAN-TOURIST,false,active,2004
+U,2026-07-18T23:45:12Z,RD-003706,OP-001,Tiago,Almeida,tiago.almeida409@correo.es,CTY-VLC,Spain,2026-06-14,PLAN-CORP,true,active,1964
+U,2026-07-18T16:36:27Z,RD-001450,OP-002,Yasmin,Vidal, yasmin.vidal287@outlook.com ,CTY-BCN,ES,2026-06-14,PLAN-UNLIMITED,false,active,1964
+U,2026-07-18T11:16:47Z,RD-000082,OP-002,Freja,Martin,freja.haddad849@proton.me,CTY-BCN,ES,2025-09-30,PLAN-PAYG,true,active,1982
+U,2026-07-18T16:15:08Z,RD-001222,OP-002,Joan,Almeida,joan.almeida783@outlook.com,CTY-LIS,ES,2026-01-13,PLAN-CORP,true,active,1987

@@ -1,0 +1,16 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-04-19T02:07:33Z,RD-006443,OP-003,Joan,Benali,joan.benali935@mail.com,CTY-STO,SE,2025-03-25,PLAN-TOURIST,true,active,1962
+U,2026-04-19T15:11:46Z,RD-000322,OP-002,Emil,Lopez,emil.silva718@proton.me,CTY-BCN,ES,2024-09-18,PLAN-UNLIMITED,false,active,1996
+U,2026-04-19T05:54:13Z,RD-003606,OP-001,Diego,Novak,diego.novak396@mail.com,CTY-VLC,Spain,2025-03-24,PLAN-COMMUTE,true,active,1975
+U,2026-04-19T20:15:57Z,RD-005295,OP-001,Camille,Roux,camille.roux628@proton.me,CTY-TLS,fra,2026-02-22,PLAN-STUDENT,false,active,1978
+U,2026-04-19T09:46:48Z,RD-007974,OP-004,Diego,Berg,diego.berg253@correo.es,CTY-LIS,PT,2024-05-12,PLAN-CORP,true,active,1968
+U,2026-04-19T22:24:46Z,RD-006300,OP-003,Manon,Bernard,manon.bernard777@correo.es,CTY-STO,SE,2026-03-07,PLAN-CORP,true,active,1967
+U,2026-04-19T07:15:11Z,RD-005982,OP-003,Elin,Lopez,elin.lopez689@correo.es,CTY-STO,SE,2026-03-25,PLAN-UNLIMITED,true,active,1985
+I,2026-04-19T19:40:53Z,RD-007865,OP-004,Nadia,Ferrer,nadia.ferrer213@correo.es,CTY-LIS,PT,2026-04-19,PLAN-COMMUTE,true,active,1973
+U,2026-04-19T07:24:07Z,RD-007418,OP-004,Nils,Kowalski,nils.kowalski211@proton.me,CTY-LIS,PT,2024-03-19,PLAN-CORP,false,active,1993
+I,2026-04-19T11:05:08Z,RD-003353,OP-001,Yasmin,Pereira,yasmin.pereira735@outlook.com,CTY-VLC,Spain,2026-04-19,PLAN-COMMUTE,false,active,1965
+U,2026-04-19T23:43:24Z,RD-004843,OP-001,Emil,Bernard,emil.costa814@gmx.de,CTY-LYO,FR,2026-03-01,PLAN-CORP,false,active,1977
+U,2026-04-19T15:21:03Z,RD-004468,OP-001,Ines,Martin,ines.martin484@correo.es,CTY-LYO,FR,2024-01-15,PLAN-COMMUTE,false,active,1995
+U,2026-04-19T03:07:51Z,RD-005077,OP-001,Chloe,Rossi,chloe.rossi190@correo.es,CTY-TLS,fra,2024-07-02,PLAN-COMMUTE,false,active,1984
+I,2026-04-19T02:27:53Z,RD-002639,OP-001,Hugo,Martin,hugo.martin132@mail.com,CTY-MAD,esp,2026-04-19,PLAN-COMMUTE,true,active,1963
+U,2026-04-19T14:42:06Z,RD-002027,OP-001,Marta,Almeida,marta.almeida525@correo.es,CTY-MAD,esp,2024-06-30,PLAN-PAYG,false,active,1974

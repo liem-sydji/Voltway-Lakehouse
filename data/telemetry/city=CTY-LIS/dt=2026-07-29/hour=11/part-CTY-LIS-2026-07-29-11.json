@@ -1,0 +1,5 @@
+{"event_id":"ev_000039545","vehicle_id":"VH-01136","ride_id":"RIDE-20260729-0109234","ts":"1785319754000","lat":38.728283,"lon":-9.110727,"speed_kph":16.5,"battery":74.2,"signal_dbm":-98,"is_locked":false,"firmware_version":"3.2.1"}
+{"event_id":"ev_000039543","vehicle_id":"VH-01136","ride_id":"RIDE-20260729-0109234","ts":"1785319634000","lat":38.728593,"lon":-9.110589,"speed_kph":8.2,"battery":74.9,"signal_dbm":-65,"is_locked":true,"firmware_version":"3.2.0"}
+{"event_id":"ev_000039544","vehicle_id":"VH-01136","ride_id":"RIDE-20260729-0109234","ts":"1785319694000","lat":38.728151,"lon":-9.110431,"speed_kph":11.4,"battery":74.6,"signal_dbm":-103,"is_locked":false,"firmware_version":"3.2.0"}
+{"event_id":"ev_000039545","vehicle_id":"VH-01136","ride_id":"RIDE-20260729-0109234","ts":"1785319754000","lat":38.728283,"lon":-9.110727,"speed_kph":16.5,"battery":74.2,"signal_dbm":-98,"is_locked":false,"firmware_version":"3.2.1"}
+{"event_id":"ev_000039546","vehicle_id":"VH-01136","ride_id":"RIDE-20260729-0109234","ts":"1785319814000","lat":38.728297,"lon":-9.11065,"speed_kph":20.1,"battery":0.7386,"signal_dbm":-78,"is_locked":true,"firmware_version":"3.2.1"}

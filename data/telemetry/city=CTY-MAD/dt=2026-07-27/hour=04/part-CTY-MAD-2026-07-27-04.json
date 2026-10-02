@@ -1,0 +1,3 @@
+{"event_id":"ev_000015617","vehicle_id":"VH-00407","ride_id":"RIDE-20260727-0106073","ts":"2026-07-27 04:53:57","lat":40.422653,"lon":-3.682617,"speed_kph":13.4,"battery":84.1,"signal_dbm":-67,"is_locked":true}
+{"event_id":"ev_000015618","vehicle_id":"VH-00407","ride_id":"RIDE-20260727-0106073","ts":"2026-07-27 04:54:57","lat":40.422931,"lon":-3.6831,"speed_kph":17.4,"battery":0.8383,"signal_dbm":-111,"is_locked":true}
+{"event_id":"ev_000015617","vehicle_id":"VH-00407","ride_id":"RIDE-20260727-0106073","ts":"2026-07-27 04:53:57","lat":40.422653,"lon":-3.682617,"speed_kph":13.4,"battery":84.1,"signal_dbm":-67,"is_locked":true}

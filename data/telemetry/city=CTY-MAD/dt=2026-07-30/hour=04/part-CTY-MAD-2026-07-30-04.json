@@ -1,0 +1,4 @@
+{"event_id":"ev_000021761","vehicle_id":"VH-00299","ride_id":"RIDE-20260730-0109739","ts":"2026-07-30 04:33:06","lat":40.406094,"lon":-3.69656,"speed_kph":9.5,"battery":72.3,"signal_dbm":-61,"is_locked":true,"firmware_version":"3.2.1"}
+{"event_id":"ev_000021759","vehicle_id":"VH-00299","ride_id":"RIDE-20260730-0109739","ts":"2026-07-30 04:31:06","lat":40.405397,"lon":-3.696808,"speed_kph":25.6,"battery":0.7257,"signal_dbm":-58,"is_locked":true,"firmware_version":"3.3.0-rc1"}
+{"event_id":"ev_000021761","vehicle_id":"VH-00299","ride_id":"RIDE-20260730-0109739","ts":"2026-07-30 04:33:06","lat":40.406094,"lon":-3.69656,"speed_kph":9.5,"battery":72.3,"signal_dbm":-61,"is_locked":true,"firmware_version":"3.2.1"}
+{"event_id":"ev_000021760","vehicle_id":"VH-00299","ride_id":"RIDE-20260730-0109739","ts":"2026-07-30 04:32:06","lat":40.406159,"lon":-3.695963,"speed_kph":10.2,"battery":72.4,"signal_dbm":-65,"is_locked":false,"firmware_version":"3.3.0-rc1"}

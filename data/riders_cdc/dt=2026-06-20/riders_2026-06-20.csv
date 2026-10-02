@@ -1,0 +1,14 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-06-20T13:45:26Z,RD-001253,OP-001,Camille,Serra,camille.serra430@correo.es,CTY-BCN,ES,2025-03-26,PLAN-PAYG,false,active,1986
+U,2026-06-20T03:29:30Z,RD-003630,OP-001,Tiago,Garcia,tiago.garcia162@proton.me,CTY-VLC,Spain,2026-04-14,PLAN-TOURIST,true,active,1983
+U,2026-06-20T00:43:26Z,RD-003726,OP-001,Nadia,Lopez,nadia.rossi77@correo.es,CTY-VLC,Spain,2025-09-05,PLAN-PAYG,true,active,1962
+U,2026-06-20T12:23:16Z,RD-002898,OP-001,Tiago,Ferrer,tiago.ferrer538@mail.com,CTY-MAD,esp,2025-05-08,PLAN-PAYG,false,active,1974
+U,2026-06-20T13:49:11Z,RD-003758,OP-001,Chloe,Conti,chloe.conti604@correo.es,CTY-VLC,Spain,2025-11-29,PLAN-PAYG,false,active,1970
+U,2026-06-20T04:43:41Z,RD-004445,OP-001,Omar,Costa,omar.costa89@outlook.com,CTY-LYO,FR,2025-10-04,PLAN-COMMUTE,true,active,1972
+U,2026-06-20T08:49:31Z,RD-000772,OP-002,Nils,Silva,nils.silva664@correo.es,CTY-VLC,ES,2025-12-27,PLAN-PAYG,false,active,1982
+U,2026-06-20T17:37:13Z,RD-001087,OP-002,Rui,Vidal,rui.vidal870@outlook.com,CTY-VLC,ES,2025-07-07,PLAN-COMMUTE,true,active,1984
+U,2026-06-20T01:30:24Z,RD-001886,OP-001,Camille,Martin,camille.almeida837@gmx.de,CTY-MAD,esp,2025-02-08,PLAN-PAYG,true,active,1991
+U,2026-06-20T07:15:34Z,RD-006002,OP-003,Ivan,Moreno,ivan.moreno279@correo.es,CTY-STO,SE,2025-10-26,PLAN-UNLIMITED,true,active,1986
+U,2026-06-20T09:33:49Z,RD-001776,OP-001,Ivan,Andersson,ivan.andersson502@outlook.com,CTY-MAD,esp,2024-08-19,PLAN-UNLIMITED,true,active,1962
+U,2026-06-20T10:06:55Z,RD-003764,OP-001,Chloe,Roux,chloe.roux178@correo.es,CTY-VLC,Spain,2025-03-24,PLAN-PAYG,false,active,2002
+U,2026-06-20T15:31:40Z,RD-005074,OP-001,Tiago,Roux,tiago.roux20@outlook.com,CTY-TLS,fra,2024-09-26,PLAN-PAYG,true,active,2008

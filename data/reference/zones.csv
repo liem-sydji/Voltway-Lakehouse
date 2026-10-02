@@ -1,0 +1,62 @@
+zone_id,city_id,zone_name,zone_type,centroid_lat,centroid_lon,area_km2,parking_capacity,valid_from,valid_to,is_current
+BCN-Z01,CTY-BCN,Barcelona Waterfront 1,waterfront,41.429159,2.115461,3.57,59,2025-01-01,,true
+BCN-Z02,CTY-BCN,Barcelona Waterfront 2,waterfront,41.386893,2.109847,3.89,220,2025-01-01,,true
+BCN-Z03,CTY-BCN,Barcelona Tourist 3,tourist,41.368121,2.112596,2.86,147,2025-01-01,,true
+BCN-Z04,CTY-BCN,Barcelona Waterfront 4,waterfront,41.363226,2.128912,0.55,76,2025-01-01,,true
+BCN-Z05,CTY-BCN,Barcelona Waterfront 5,waterfront,41.342381,2.127466,4.49,214,2025-01-01,,true
+BCN-Z06,CTY-BCN,Barcelona University 6,university,41.374168,2.156009,2.8,147,2025-01-01,2026-05-31,false
+BCN-Z07,CTY-BCN,Barcelona Residential 7,residential,41.408745,2.1168,0.77,87,2025-01-01,2026-05-31,false
+MAD-Z01,CTY-MAD,Madrid Transit Hub 1,transit_hub,40.458538,-3.730246,2.89,64,2025-01-01,,true
+MAD-Z02,CTY-MAD,Madrid University 2,university,40.455513,-3.694936,1.47,119,2025-01-01,,true
+MAD-Z03,CTY-MAD,Madrid Tourist 3,tourist,40.381346,-3.754399,1.61,44,2025-01-01,2026-05-31,false
+MAD-Z04,CTY-MAD,Madrid No Parking 4,no_parking,40.417997,-3.732472,2.61,218,2025-01-01,,true
+MAD-Z05,CTY-MAD,Madrid Tourist 5,tourist,40.39429,-3.710572,1.95,138,2025-01-01,,true
+MAD-Z06,CTY-MAD,Madrid No Parking 6,no_parking,40.393671,-3.722773,3.58,189,2025-01-01,,true
+MAD-Z07,CTY-MAD,Madrid University 7,university,40.452523,-3.660962,2.38,81,2025-01-01,,true
+VLC-Z01,CTY-VLC,Valencia University 1,university,39.481942,-0.318625,3.18,73,2025-01-01,,true
+VLC-Z02,CTY-VLC,Valencia No Parking 2,no_parking,39.453299,-0.323148,2.52,17,2025-01-01,,true
+VLC-Z03,CTY-VLC,Valencia Waterfront 3,waterfront,39.499826,-0.405679,0.78,187,2025-01-01,2026-05-31,false
+VLC-Z04,CTY-VLC,Valencia Waterfront 4,waterfront,39.498826,-0.425779,4.22,136,2025-01-01,,true
+VLC-Z05,CTY-VLC,Valencia Transit Hub 5,transit_hub,39.456705,-0.330282,1.5,206,2025-01-01,,true
+LYO-Z01,CTY-LYO,Lyon University 1,university,45.785361,4.80146,1.39,82,2025-01-01,,true
+LYO-Z02,CTY-LYO,Lyon Business District 2,business_district,45.739604,4.878954,3.83,106,2025-01-01,,true
+LYO-Z03,CTY-LYO,Lyon Business District 3,business_district,45.78913,4.786611,0.72,184,2025-01-01,,true
+LYO-Z04,CTY-LYO,Lyon University 4,university,45.774255,4.869825,2.62,25,2025-01-01,,true
+LYO-Z05,CTY-LYO,Lyon No Parking 5,no_parking,45.762405,4.851283,2.42,162,2025-01-01,,true
+LYO-Z06,CTY-LYO,Lyon No Parking 6,no_parking,45.743706,4.794746,3.53,145,2025-01-01,,true
+TLS-Z01,CTY-TLS,Toulouse University 1,university,43.579663,1.453738,0.62,219,2025-01-01,2026-05-31,false
+TLS-Z02,CTY-TLS,Toulouse University 2,university,43.602747,1.449272,2.46,115,2025-01-01,,true
+TLS-Z03,CTY-TLS,Toulouse No Parking 3,no_parking,43.621487,1.403741,4.4,193,2025-01-01,,true
+TLS-Z04,CTY-TLS,Toulouse Tourist 4,tourist,43.601103,1.46774,0.45,68,2025-01-01,,true
+TLS-Z05,CTY-TLS,Toulouse University 5,university,43.611998,1.422482,2.91,81,2025-01-01,,true
+TLS-Z06,CTY-TLS,Toulouse Business District 6,business_district,43.609075,1.411496,2.33,171,2025-01-01,,true
+TLS-Z07,CTY-TLS,Toulouse Transit Hub 7,transit_hub,43.592621,1.444047,1.26,194,2025-01-01,,true
+STO-Z01,CTY-STO,Stockholm Transit Hub 1,transit_hub,59.361221,18.02968,1.14,48,2025-01-01,,true
+STO-Z02,CTY-STO,Stockholm Tourist 2,tourist,59.346058,18.12409,3.36,220,2025-01-01,2026-05-31,false
+STO-Z03,CTY-STO,Stockholm Business District 3,business_district,59.334286,18.131528,1.2,219,2025-01-01,,true
+STO-Z04,CTY-STO,Stockholm Waterfront 4,waterfront,59.297728,18.122585,1.12,142,2025-01-01,,true
+STO-Z05,CTY-STO,Stockholm Business District 5,business_district,59.373945,18.130306,2.52,199,2025-01-01,,true
+STO-Z06,CTY-STO,Stockholm Transit Hub 6,transit_hub,59.355006,18.033284,2.7,160,2025-01-01,,true
+STO-Z07,CTY-STO,Stockholm Residential 7,residential,59.320147,18.102252,0.65,80,2025-01-01,,true
+GOT-Z01,CTY-GOT,Goteborg No Parking 1,no_parking,57.720599,11.966144,1.77,107,2025-01-01,2026-05-31,false
+GOT-Z02,CTY-GOT,Goteborg Transit Hub 2,transit_hub,57.714337,12.047426,1.46,20,2025-01-01,,true
+GOT-Z03,CTY-GOT,Goteborg University 3,university,57.674777,12.036552,4.35,65,2025-01-01,,true
+GOT-Z04,CTY-GOT,Goteborg Tourist 4,tourist,57.715737,11.999749,1.12,214,2025-01-01,,true
+GOT-Z05,CTY-GOT,Goteborg Transit Hub 5,transit_hub,57.695847,12.003807,2.4,203,2025-01-01,,true
+GOT-Z06,CTY-GOT,Goteborg University 6,university,57.744002,11.954544,1.57,176,2025-01-01,,true
+GOT-Z07,CTY-GOT,Goteborg Business District 7,business_district,57.742076,11.998307,4.21,122,2025-01-01,,true
+GOT-Z08,CTY-GOT,Goteborg Waterfront 8,waterfront,57.719018,11.958541,4.12,35,2025-01-01,,true
+LIS-Z01,CTY-LIS,Lisbon Transit Hub 1,transit_hub,38.697815,-9.160446,1.59,83,2025-01-01,,true
+LIS-Z02,CTY-LIS,Lisbon Tourist 2,tourist,38.735331,-9.165715,2.22,107,2025-01-01,2026-05-31,false
+LIS-Z03,CTY-LIS,Lisbon Waterfront 3,waterfront,38.730131,-9.085545,2.1,62,2025-01-01,,true
+LIS-Z04,CTY-LIS,Lisbon No Parking 4,no_parking,38.679336,-9.112999,3.11,205,2025-01-01,,true
+LIS-Z05,CTY-LIS,Lisbon Waterfront 5,waterfront,38.744799,-9.172721,2.03,39,2025-01-01,,true
+LIS-Z06,CTY-LIS,Lisbon Residential 6,residential,38.761651,-9.142396,0.62,212,2025-01-01,,true
+TLS-Z01,CTY-TLS,Toulouse University 1,university,43.579663,1.453738,0.71,383,2026-06-01,,true
+STO-Z02,CTY-STO,Stockholm Tourist 2,tourist,59.346058,18.12409,4.35,277,2026-06-01,,true
+LIS-Z02,CTY-LIS,Lisbon Tourist 2,tourist,38.735331,-9.165715,3.26,150,2026-06-01,,true
+BCN-Z06,CTY-BCN,Barcelona University 6,university,41.374168,2.156009,3.26,215,2026-06-01,,true
+BCN-Z07,CTY-BCN,Barcelona Residential 7,residential,41.408745,2.1168,0.91,97,2026-06-01,,true
+VLC-Z03,CTY-VLC,Valencia Waterfront 3,waterfront,39.499826,-0.405679,1.0,325,2026-06-01,,true
+GOT-Z01,CTY-GOT,Goteborg No Parking 1,no_parking,57.720599,11.966144,2.71,152,2026-06-01,,true
+MAD-Z03,CTY-MAD,Madrid Tourist 3,tourist,40.381346,-3.754399,2.47,77,2026-06-01,,true

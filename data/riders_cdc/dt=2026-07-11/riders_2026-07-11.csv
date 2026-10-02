@@ -1,0 +1,14 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-07-11T17:07:24Z,RD-005467,OP-001,Hugo,Lopez,hugo.lopez991@correo.es,CTY-TLS,fra,2025-08-07,PLAN-UNLIMITED,false,active,1993
+U,2026-07-11T09:18:08Z,RD-000203,OP-002,Omar,Silva,omar.silva924@mail.com,CTY-BCN,ES,2024-05-26,PLAN-COMMUTE,true,active,1986
+U,2026-07-11T09:07:32Z,RD-001455,OP-002,Beatriz,Benali,BEATRIZ.BENALI427@PROTON.ME,CTY-BCN,ES,2025-01-28,PLAN-TOURIST,false,active,1998
+U,2026-07-11T02:17:59Z,RD-005010,OP-001,Joan,Ferrer,joan.ferrer846@gmx.de,CTY-TLS,fra,2025-05-14,PLAN-TOURIST,false,active,1972
+U,2026-07-11T19:32:40Z,RD-002760,OP-001,Antoine,Benali,antoine.benali203@proton.me,CTY-MAD,esp,2025-09-05,PLAN-TOURIST,false,active,1980
+U,2026-07-11T09:38:27Z,RD-004160,OP-001,Yasmin,Roux,yasmin.roux911@gmx.de,CTY-LYO,FR,2025-10-13,PLAN-COMMUTE,false,active,1965
+U,2026-07-11T00:02:34Z,RD-000414,OP-002,Thomas,Costa,thomas.almeida307@mail.com,CTY-BCN,ES,2024-12-05,PLAN-STUDENT,false,active,2004
+U,2026-07-11T06:14:56Z,RD-000890,OP-002,Joan,Costa,JOAN.COSTA783@OUTLOOK.COM,CTY-BCN,ES,2025-10-14,PLAN-PAYG,false,active,1994
+U,2026-07-11T20:16:14Z,RD-002164,OP-001,Ines,Lopez,ines.lopez380@mail.com,CTY-MAD,esp,2025-01-18,PLAN-PAYG,true,active,1981
+U,2026-07-11T21:26:35Z,RD-001165,OP-001,Lucia,Silva,lucia.silva806@outlook.com,CTY-TLS,ES,2026-03-25,PLAN-PAYG,false,active,1987
+U,2026-07-11T18:15:23Z,RD-002090,OP-001,Ines,Kowalski,ines.kowalski364@outlook.com,CTY-MAD,esp,2024-05-24,PLAN-PAYG,true,active,1988
+U,2026-07-11T18:12:16Z,RD-004517,OP-001,Chloe,Lopez,chloe.lopez112@mail.com,CTY-VLC,FR,2025-01-14,PLAN-PAYG,true,active,1987
+U,2026-07-11T03:58:30Z,RD-002835,OP-001,Pablo,Lopez,pablo.lopez696@outlook.com,CTY-MAD,esp,2025-06-23,PLAN-COMMUTE,true,active,1983

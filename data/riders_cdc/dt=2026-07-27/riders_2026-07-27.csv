@@ -1,0 +1,14 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-07-27T23:34:23Z,RD-002752,OP-001,Emil,Andersson,emil.andersson757@mail.com,CTY-MAD,esp,2024-06-02,PLAN-PAYG,false,active,1991
+U,2026-07-27T11:58:19Z,RD-003451,OP-001,Lucia,Ferrer,lucia.ferrer133@proton.me,CTY-VLC,Spain,2024-10-24,PLAN-PAYG,true,active,1986
+U,2026-07-27T08:25:42Z,RD-001319,OP-002,Elin,Andersson,elin.andersson330@proton.me,CTY-BCN,ES,2026-01-25,PLAN-PAYG,true,active,1994
+U,2026-07-27T02:08:05Z,RD-007326,OP-004,Hugo,Lopez,hugo.lopez320@correo.es,CTY-LIS,PT,2026-06-17,PLAN-UNLIMITED,false,active,1997
+U,2026-07-27T02:07:48Z,RD-004348,OP-001,Astrid,Fischer,astrid.conti537@mail.com,CTY-LYO,FR,2024-01-20,PLAN-STUDENT,true,active,2005
+U,2026-07-27T15:02:06Z,RD-002032,OP-001,Astrid,Berg,astrid.berg853@mail.com,CTY-BCN,esp,2026-04-20,PLAN-PAYG,false,active,1972
+U,2026-07-27T10:05:35Z,RD-002302,OP-001,Hugo,Serra,hugo.serra265@proton.me,CTY-MAD,esp,2024-03-08,PLAN-TOURIST,true,active,1988
+U,2026-07-27T07:01:09Z,RD-007825,OP-004,Nora,Nilsson,nora.nilsson450@mail.com,CTY-LIS,PT,2024-04-04,PLAN-UNLIMITED,true,active,1976
+U,2026-07-27T13:34:09Z,RD-002612,OP-001,Hugo,Rossi,HUGO.ROSSI73@CORREO.ES,CTY-MAD,esp,2026-05-18,PLAN-PAYG,false,active,1984
+U,2026-07-27T06:52:38Z,RD-000897,OP-001,Ivan,Costa,ivan.rossi186@correo.es,CTY-BCN,ES,2024-01-07,PLAN-PAYG,true,active,1968
+U,2026-07-27T22:13:25Z,RD-005335,OP-001,Rui,Pereira,rui.pereira593@proton.me,CTY-TLS,fra,2025-12-15,PLAN-COMMUTE,false,active,1989
+U,2026-07-27T01:05:44Z,RD-003105,OP-001,Camille,Kowalski,  camille.kowalski549@proton.me ,CTY-MAD,esp,2026-02-08,PLAN-COMMUTE,true,active,2007
+U,2026-07-27T07:28:59Z,RD-006535,OP-003,Ivan,Haddad,ivan.haddad772@proton.me,CTY-STO,SE,2024-02-21,PLAN-TOURIST,true,active,1991

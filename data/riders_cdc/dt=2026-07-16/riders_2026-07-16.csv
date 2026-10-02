@@ -1,0 +1,14 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-07-16T10:18:01Z,RD-005722,OP-003,Ines,Serra,ines.serra117@mail.com,CTY-LYO,SE,2024-08-08,PLAN-COMMUTE,true,active,1981
+U,2026-07-16T05:00:37Z,RD-002895,OP-001,Joan,Rossi,joan.rossi25@gmx.de,CTY-MAD,esp,2024-09-16,PLAN-CORP,true,active,1972
+U,2026-07-16T13:02:12Z,RD-005083,OP-001,Louis,Lopez,louis.lopez935@correo.es,CTY-TLS,fra,2024-08-05,PLAN-PAYG,false,active,1971
+U,2026-07-16T04:25:10Z,RD-005401,OP-001,Aina,Pereira,aina.pereira431@outlook.com,CTY-TLS,fra,2024-02-18,PLAN-PAYG,false,active,1984
+U,2026-07-16T12:54:10Z,RD-004315,OP-001,Rui,Novak,rui.novak831@mail.com,CTY-LIS,FR,2026-03-25,PLAN-COMMUTE,false,active,1967
+U,2026-07-16T10:47:42Z,RD-004510,OP-001,Nils,Lindqvist,  nils.lindqvist456@gmx.de ,CTY-LYO,FR,2025-06-23,PLAN-CORP,true,active,1986
+U,2026-07-16T09:38:08Z,RD-005718,OP-003,Joan,Vidal,joan.vidal575@outlook.com,CTY-BCN,SE,2025-02-10,PLAN-PAYG,false,active,1991
+U,2026-07-16T14:53:48Z,RD-006287,OP-003,Omar,Kowalski,omar.kowalski357@correo.es,CTY-STO,SE,2025-08-26,PLAN-COMMUTE,false,active,1998
+U,2026-07-16T18:27:58Z,RD-002008,OP-001,Camille,Berg,camille.berg576@outlook.com,CTY-MAD,esp,2024-02-02,PLAN-COMMUTE,true,active,2006
+U,2026-07-16T06:40:00Z,RD-005514,OP-001,Omar,Pereira,  omar.pereira73@correo.es ,CTY-TLS,fra,2026-06-12,PLAN-COMMUTE,true,active,1993
+U,2026-07-16T13:52:28Z,RD-004730,OP-001,Camille,Weber,camille.weber252@gmx.de,CTY-LYO,FR,2026-01-09,PLAN-PAYG,false,active,1971
+U,2026-07-16T16:47:00Z,RD-002630,OP-001,Joan,Andersson,joan.andersson700@correo.es,CTY-MAD,esp,2025-01-06,PLAN-PAYG,false,active,1972
+U,2026-07-16T08:02:45Z,RD-002339,OP-001,Omar,Benali,omar.benali643@mail.com,CTY-MAD,esp,2024-12-24,PLAN-COMMUTE,false,active,1983

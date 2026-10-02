@@ -1,0 +1,10 @@
+{"event_id":"ev_000028382","vehicle_id":"VH-00831","ride_id":"RIDE-20260726-0105520","ts":"2026-07-26T17:53:03Z","lat":59.327007,"lon":18.12654,"speed_kph":11.5,"battery":93.1,"signal_dbm":-83,"is_locked":false}
+{"event_id":"ev_000028386","vehicle_id":"VH-00831","ride_id":"RIDE-20260726-0105520","ts":"2026-07-26T17:57:03Z","lat":59.326679,"lon":18.127226,"speed_kph":7.7,"battery":0.9248,"signal_dbm":-102,"is_locked":false}
+{"event_id":"ev_000028380","vehicle_id":"VH-00831","ride_id":"RIDE-20260726-0105520","ts":"2026-07-26T17:51:03Z","lat":59.328004,"lon":18.12652,"speed_kph":15.4,"battery":0.9336,"signal_dbm":-92,"is_locked":false}
+{"event_id":"ev_000028385","vehicle_id":"VH-00831","ride_id":"RIDE-20260726-0105520","ts":"2026-07-26T17:56:03Z","lat":59.326829,"lon":18.127437,"speed_kph":13.8,"battery":0.9263,"signal_dbm":-65,"is_locked":false}
+{"event_id":"ev_000028383","vehicle_id":"VH-00831","ride_id":"RIDE-20260726-0105520","ts":"2026-07-26T17:54:03Z","lat":59.3262,"lon":18.126493,"speed_kph":7.2,"battery":92.9,"signal_dbm":-112,"is_locked":false}
+{"event_id":"ev_000028383","vehicle_id":"VH-00831","ride_id":"RIDE-20260726-0105520","ts":"2026-07-26T17:54:03Z","lat":59.3262,"lon":18.126493,"speed_kph":7.2,"battery":92.9,"signal_dbm":-112,"is_locked":false}
+{"event_id":"ev_000028379","vehicle_id":"VH-00831","ride_id":"RIDE-20260726-0105520","ts":"2026-07-26T17:50:03Z","lat":59.327483,"lon":18.126399,"speed_kph":27.0,"battery":93.8,"signal_dbm":-60,"is_locked":true}
+{"event_id":"ev_000028384","vehicle_id":"VH-00831","ride_id":"RIDE-20260726-0105520","ts":"2026-07-26T17:55:03Z","lat":59.326041,"lon":18.127219,"speed_kph":19.7,"battery":0.9273,"signal_dbm":-105,"is_locked":false}
+{"event_id":"ev_000028387","vehicle_id":"VH-00831","ride_id":"RIDE-20260726-0105520","ts":"2026-07-26T17:58:03Z","lat":59.326116,"lon":18.127731,"speed_kph":20.1,"battery":0.9237,"signal_dbm":-84,"is_locked":true}
+{"event_id":"ev_000028381","vehicle_id":"VH-00831","ride_id":"RIDE-20260726-0105520","ts":"2026-07-26T17:52:03Z","lat":59.327855,"lon":18.126904,"speed_kph":8.6,"battery":0.9324,"signal_dbm":-73,"is_locked":false}

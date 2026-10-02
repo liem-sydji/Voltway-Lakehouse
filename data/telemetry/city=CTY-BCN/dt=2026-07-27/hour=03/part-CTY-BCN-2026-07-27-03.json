@@ -1,0 +1,7 @@
+{"event_id":"ev_000003400","vehicle_id":"VH-00225","ride_id":"RIDE-20260727-0105908","ts":"2026-07-27 03:08:18","lat":41.355594,"lon":2.159823,"speed_kph":20.6,"battery":69.1,"signal_dbm":-57,"is_locked":true}
+{"event_id":"ev_000003399","vehicle_id":"VH-00225","ride_id":"RIDE-20260727-0105908","ts":"2026-07-27 03:07:18","lat":41.354954,"lon":2.159342,"speed_kph":18.0,"battery":69.3,"signal_dbm":-114,"is_locked":false}
+{"event_id":"ev_000003398","vehicle_id":"VH-00225","ride_id":"RIDE-20260727-0105908","ts":"2026-07-27 03:06:18","lat":41.354787,"lon":2.159735,"speed_kph":9.3,"battery":69.4,"signal_dbm":-86,"is_locked":false}
+{"event_id":"ev_000003398","vehicle_id":"VH-00225","ride_id":"RIDE-20260727-0105908","ts":"2026-07-27 03:06:18","lat":41.354787,"lon":2.159735,"speed_kph":9.3,"battery":69.4,"signal_dbm":-86,"is_locked":false}
+{"event_id":"ev_000003396","vehicle_id":"VH-00225","ride_id":"RIDE-20260727-0105908","ts":"2026-07-27 03:04:18","lat":41.353822,"lon":2.158848,"speed_kph":14.1,"battery":0.6982,"signal_dbm":-97,"is_locked":false}
+{"event_id":"ev_000003397","vehicle_id":"VH-00225","ride_id":"RIDE-20260727-0105908","ts":"2026-07-27 03:05:18","lat":41.354039,"lon":2.15945,"speed_kph":14.5,"battery":69.7,"signal_dbm":-59,"is_locked":false}
+{"event_id":"ev_000003395","vehicle_id":"VH-00225","ride_id":"RIDE-20260727-0105908","ts":"2026-07-27 03:03:18","lat":41.353477,"lon":2.159318,"speed_kph":16.7,"battery":70.0,"signal_dbm":-97,"is_locked":true}

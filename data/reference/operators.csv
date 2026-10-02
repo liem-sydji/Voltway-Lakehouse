@@ -1,0 +1,5 @@
+operator_id,operator_name,legal_entity,hq_country,contract_type,revenue_share_pct,active_from
+OP-001,Voltway Direct,Voltway Mobility SL,ES,own_fleet,100.0,2023-03-01
+OP-002,CicloBarna,Ajuntament de Barcelona,ES,city_contract,62.5,2024-05-15
+OP-003,NordWheel,NordWheel Mobility AB,SE,white_label,70.0,2024-11-01
+OP-004,Lisboa Move,Lisboa Move Unipessoal,PT,white_label,68.0,2025-06-01

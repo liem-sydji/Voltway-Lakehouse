@@ -1,0 +1,17 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+I,2026-04-08T10:07:17Z,RD-004431,OP-001,Hugo,Bernard,hugo.bernard620@mail.com,CTY-LYO,FR,2026-04-08,PLAN-UNLIMITED,false,active,1974
+U,2026-04-08T00:45:46Z,RD-003446,OP-001,Astrid,Pereira,astrid.pereira738@mail.com,CTY-VLC,Spain,2024-11-15,PLAN-PAYG,true,active,2000
+U,2026-04-08T02:59:08Z,RD-000308,OP-001,Yasmin,Kowalski,yasmin.kowalski692@outlook.com,CTY-BCN,ES,2025-05-21,PLAN-PAYG,true,active,1967
+I,2026-04-08T03:26:59Z,RD-005612,OP-003,Thomas,Haddad,thomas.haddad730@correo.es,CTY-STO,SE,2026-04-08,PLAN-TOURIST,false,active,1992
+U,2026-04-08T11:49:46Z,RD-001297,OP-002,Diego,Dubois, diego.dubois163@mail.com ,CTY-BCN,ES,2024-03-13,PLAN-TOURIST,false,active,1988
+U,2026-04-08T02:45:08Z,RD-007830,OP-004,Louis,Lopez,louis.lopez373@correo.es,CTY-LIS,PT,2026-04-06,PLAN-COMMUTE,false,active,1968
+U,2026-04-08T20:32:44Z,RD-002801,OP-001,Marta,Bernard,marta.bernard281@mail.com,CTY-TLS,esp,2026-03-15,PLAN-CORP,true,active,1978
+I,2026-04-08T22:31:01Z,RD-006571,OP-003,Aina,Bernard,aina.bernard494@gmx.de,CTY-STO,SE,2026-04-08,PLAN-COMMUTE,false,active,1971
+U,2026-04-08T23:22:32Z,RD-000164,OP-002,Omar,Martin,omar.martin92@mail.com,CTY-BCN,ES,2024-12-05,PLAN-COMMUTE,false,active,1988
+U,2026-04-08T02:46:29Z,RD-001104,OP-002,Tiago,Garcia,tiago.garcia11@outlook.com,CTY-BCN,ES,2024-11-19,PLAN-PAYG,true,active,1962
+U,2026-04-08T20:38:58Z,RD-005950,OP-003,Marta,Costa,marta.costa98@proton.me,CTY-STO,SE,2025-09-12,PLAN-UNLIMITED,false,active,1998
+U,2026-04-08T18:11:08Z,RD-007091,OP-003,Nora,Roux,nora.roux120@correo.es,CTY-GOT,SWE,2025-04-11,PLAN-COMMUTE,false,active,1973
+U,2026-04-08T15:32:51Z,RD-006001,OP-003,Lucia,Costa,lucia.costa954@outlook.com,CTY-BCN,SE,2026-01-08,PLAN-COMMUTE,false,active,1988
+U,2026-04-08T08:54:40Z,RD-004200,OP-001,Emil,Haddad,emil.haddad887@correo.es,CTY-LYO,FR,2026-01-14,PLAN-CORP,false,active,1986
+U,2026-04-08T18:58:52Z,RD-006710,OP-003,Louis,Benali,louis.benali463@gmx.de,CTY-GOT,SWE,2025-10-24,PLAN-COMMUTE,true,active,1979
+I,2026-04-08T12:08:44Z,RD-007166,OP-004,Astrid,Berg,astrid.berg973@gmx.de,CTY-LIS,PT,2026-04-08,PLAN-PAYG,false,active,1962

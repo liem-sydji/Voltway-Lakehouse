@@ -1,0 +1,21 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-06-03T07:24:27Z,RD-002140,OP-001,Emil,Silva,emil.silva366@correo.es,CTY-MAD,esp,2024-08-24,PLAN-PAYG,false,active,1982
+U,2026-06-03T02:20:48Z,RD-000935,OP-002,Nils,Costa,nils.costa278@proton.me,CTY-BCN,ES,2026-05-27,PLAN-PAYG,true,active,1966
+U,2026-06-03T06:40:27Z,RD-005105,OP-001,Pablo,Andersson,PABLO.ANDERSSON990@PROTON.ME,CTY-TLS,fra,2025-06-13,PLAN-PAYG,true,active,1988
+U,2026-06-03T01:41:34Z,RD-001361,OP-002,Chloe,Moreno,  chloe.moreno236@gmx.de ,CTY-BCN,ES,2025-12-08,PLAN-PAYG,false,active,1968
+U,2026-06-03T19:08:26Z,RD-002596,OP-001,Antoine,Conti,antoine.conti215@correo.es,CTY-MAD,esp,2024-06-20,PLAN-COMMUTE,true,active,1989
+U,2026-06-03T09:07:13Z,RD-001268,OP-002,Diego,Lindqvist,DIEGO.LINDQVIST808@GMX.DE,CTY-BCN,ES,2025-08-23,PLAN-PAYG,true,active,2008
+I,2026-06-03T02:39:39Z,RD-004215,OP-001,Antoine,Ferrer,antoine.ferrer632@proton.me,CTY-LYO,FR,2026-06-03,PLAN-PAYG,true,active,1964
+U,2026-06-03T02:42:48Z,RD-004903,OP-001,Chloe,Pereira,chloe.pereira720@outlook.com,CTY-LYO,FR,2025-01-29,PLAN-COMMUTE,false,active,1996
+U,2026-06-03T19:09:25Z,RD-002326,OP-001,Oskar,Rossi,oskar.rossi706@gmx.de,CTY-MAD,esp,2026-01-16,PLAN-COMMUTE,false,active,1966
+I,2026-06-03T02:22:01Z,RD-000261,OP-001,Thomas,Costa,thomas.costa132@gmx.de,CTY-BCN,ES,2026-06-03,PLAN-COMMUTE,false,active,1966
+I,2026-06-03T06:01:37Z,RD-004478,OP-001,Diego,Dubois,diego.dubois163@mail.com,CTY-LYO,FR,2026-06-03,PLAN-TOURIST,true,active,1988
+I,2026-06-03T11:57:26Z,RD-005763,OP-003,Ines,Haddad,ines.haddad26@mail.com,CTY-STO,SE,2026-06-03,PLAN-PAYG,true,active,1998
+U,2026-06-03T19:46:47Z,RD-004852,OP-001,Nils,Moreno,nils.moreno800@mail.com,CTY-LYO,FR,2024-10-02,PLAN-COMMUTE,false,active,1963
+D,2026-06-03T00:00:00Z,RD-001946,OP-001,Pablo,Haddad,REDACTED,CTY-MAD,esp,2025-02-10,PLAN-COMMUTE,false,deleted,1975
+U,2026-06-03T17:02:20Z,RD-004529,OP-001,Rui,Silva,  rui.silva665@correo.es ,CTY-LYO,FR,2026-04-27,PLAN-PAYG,false,active,1965
+U,2026-06-03T10:50:23Z,RD-007018,OP-003,Ines,Roux,ines.roux529@gmx.de,CTY-GOT,SWE,2025-11-09,PLAN-COMMUTE,false,active,1990
+U,2026-06-03T04:07:00Z,RD-002695,OP-001,Diego,Roux,  diego.roux944@gmx.de ,CTY-MAD,esp,2025-12-16,PLAN-PAYG,true,active,1982
+I,2026-06-03T11:36:54Z,RD-004988,OP-001,Diego,Costa,diego.costa389@correo.es,CTY-TLS,fra,2026-06-03,PLAN-COMMUTE,true,active,1965
+I,2026-06-03T02:13:24Z,RD-004926,OP-001,Diego,Costa,diego.costa198@proton.me,CTY-LYO,FR,2026-06-03,PLAN-UNLIMITED,true,active,1989
+U,2026-06-03T13:02:38Z,RD-007335,OP-004,Nadia,Moreno,nadia.moreno436@mail.com,CTY-LIS,PT,2026-04-29,PLAN-PAYG,false,active,2007

@@ -1,0 +1,1920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintenance_batch vendor="FixMyFleet" period="2026-07">
+  <event id="MNT-000705" vehicle_ref="VH-00136">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-06T08:08:51</reported_at>
+    <assigned_at>2026-07-08T04:06:48.113213</assigned_at>
+    <repaired_at>2026-07-09T01:58:10.671127</repaired_at>
+    <returned_to_service_at>2026-07-09T15:52:58.520737</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">7901</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10388</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000706" vehicle_ref="VH-00219">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-10T03:10:39</reported_at>
+    <assigned_at>2026-07-10T12:51:25.496795</assigned_at>
+    <repaired_at>2026-07-12T02:52:05.137617</repaired_at>
+    <returned_to_service_at>2026-07-14T10:45:06.591631</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">22157</labour_cost>
+    <parts_cost currency="EUR" unit="cents">2711</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000707" vehicle_ref="VH-01146">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-18T11:53:46</reported_at>
+    <assigned_at>2026-07-18T18:35:53.925986</assigned_at>
+    <repaired_at>2026-07-22T13:15:42.697298</repaired_at>
+    <returned_to_service_at>2026-07-22T16:16:38.474615</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">1722</labour_cost>
+    <parts_cost currency="EUR" unit="cents">1784</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000708" vehicle_ref="VH-00060">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-25T01:19:48</reported_at>
+    <assigned_at>2026-07-27T11:25:18.434904</assigned_at>
+    <repaired_at>2026-07-29T08:24:12.032040</repaired_at>
+    <returned_to_service_at>2026-07-31T22:31:26.367424</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">9039</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7374</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000709" vehicle_ref="VH-00997">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-20T04:20:06</reported_at>
+    <assigned_at>2026-07-20T20:01:59.245156</assigned_at>
+    <technician>  m. lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000710" vehicle_ref="VH-00257">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-05T18:06:03</reported_at>
+    <assigned_at>2026-07-06T04:18:47.191566</assigned_at>
+    <repaired_at>2026-07-08T21:48:31.454770</repaired_at>
+    <returned_to_service_at>2026-07-09T00:22:40.025339</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">20196</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13268</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000711" vehicle_ref="VH-00770">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-26T15:09:02</reported_at>
+    <assigned_at>2026-07-27T12:44:59.270628</assigned_at>
+    <repaired_at>2026-07-30T01:34:26.145778</repaired_at>
+    <returned_to_service_at>2026-07-31T04:37:36.385839</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">5615</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13053</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000712" vehicle_ref="VH-00853">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-11T12:24:26</reported_at>
+    <assigned_at>2026-07-11T15:53:46.461045</assigned_at>
+    <technician>  m. lopez</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000713" vehicle_ref="VH-00153">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-06T14:54:27</reported_at>
+    <assigned_at>2026-07-07T01:30:29.204413</assigned_at>
+    <technician>M. Lopez</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000714" vehicle_ref="VH-00502">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-08T15:11:45</reported_at>
+    <assigned_at>2026-07-10T05:57:12.342719</assigned_at>
+    <repaired_at>2026-07-12T01:46:33.888139</repaired_at>
+    <returned_to_service_at>2026-07-13T04:04:32.972587</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">12579</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12545</parts_cost>
+    <technician>unknown</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000715" vehicle_ref="VH-01122">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-14T21:07:13</reported_at>
+    <assigned_at>2026-07-17T00:22:12.695297</assigned_at>
+    <repaired_at>2026-07-19T22:36:10.630731</repaired_at>
+    <returned_to_service_at>2026-07-22T14:48:32.378140</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">9176</labour_cost>
+    <parts_cost currency="EUR" unit="cents">11115</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000716" vehicle_ref="VH-00020">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-23T09:35:31</reported_at>
+    <assigned_at>2026-07-24T16:21:37.125822</assigned_at>
+    <repaired_at>2026-07-28T23:31:18.276727</repaired_at>
+    <returned_to_service_at>2026-07-29T08:52:11.506418</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">10078</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6809</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000717" vehicle_ref="VH-00799">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-07T15:29:15</reported_at>
+    <assigned_at>2026-07-09T03:31:45.863447</assigned_at>
+    <repaired_at>2026-07-10T07:02:38.703870</repaired_at>
+    <returned_to_service_at>2026-07-10T21:07:54.750073</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">20965</labour_cost>
+    <parts_cost currency="EUR" unit="cents">524</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000718" vehicle_ref="VH-00797">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-21T02:14:06</reported_at>
+    <assigned_at>2026-07-22T18:47:01.906245</assigned_at>
+    <repaired_at>2026-07-24T05:48:58.831255</repaired_at>
+    <returned_to_service_at>2026-07-25T23:47:57.083365</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">19722</labour_cost>
+    <parts_cost currency="EUR" unit="cents">9478</parts_cost>
+    <technician>unknown</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000719" vehicle_ref="VH-00101">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-19T19:57:05</reported_at>
+    <assigned_at>2026-07-20T23:13:09.873500</assigned_at>
+    <repaired_at>2026-07-25T02:10:53.641815</repaired_at>
+    <returned_to_service_at>2026-07-26T10:15:44.346899</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">6732</labour_cost>
+    <parts_cost currency="EUR" unit="cents">8154</parts_cost>
+    <technician>Anders K.</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000720" vehicle_ref="VH-00517">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-29T03:05:32</reported_at>
+    <assigned_at>2026-07-30T02:02:00.745902</assigned_at>
+    <repaired_at>2026-08-01T07:43:33.829891</repaired_at>
+    <returned_to_service_at>2026-08-01T13:10:46.967486</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4713</labour_cost>
+    <parts_cost currency="EUR" unit="cents">16481</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000721" vehicle_ref="VH-00704">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-04T08:14:00</reported_at>
+    <assigned_at>2026-07-05T10:25:49.629058</assigned_at>
+    <repaired_at>2026-07-05T14:14:45.716290</repaired_at>
+    <returned_to_service_at>2026-07-07T20:04:03.322946</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">3805</labour_cost>
+    <parts_cost currency="EUR" unit="cents">4633</parts_cost>
+    <technician>unknown</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000722" vehicle_ref="VH-00827">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-17T23:33:10</reported_at>
+    <assigned_at>2026-07-20T01:58:33.299241</assigned_at>
+    <repaired_at>2026-07-24T03:35:36.895534</repaired_at>
+    <returned_to_service_at>2026-07-25T08:32:54.651556</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">1263</labour_cost>
+    <parts_cost currency="EUR" unit="cents">351</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000723" vehicle_ref="VH-00182">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-20T05:09:57</reported_at>
+    <assigned_at>2026-07-20T14:25:22.505732</assigned_at>
+    <repaired_at>2026-07-24T22:44:45.697118</repaired_at>
+    <returned_to_service_at>2026-07-26T04:32:37.722236</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">1656</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6273</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000724" vehicle_ref="VH-01039">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-23T11:58:31</reported_at>
+    <assigned_at>2026-07-25T07:12:51.265008</assigned_at>
+    <repaired_at>2026-07-27T14:37:15.286640</repaired_at>
+    <returned_to_service_at>2026-07-28T03:12:09.105062</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">20184</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12531</parts_cost>
+    <technician>unknown</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000725" vehicle_ref="VH-00304">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-16T00:48:43</reported_at>
+    <assigned_at>2026-07-16T13:43:09.034461</assigned_at>
+    <repaired_at>2026-07-19T18:10:48.611977</repaired_at>
+    <returned_to_service_at>2026-07-21T12:07:45.479513</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">7572</labour_cost>
+    <parts_cost currency="EUR" unit="cents">2974</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000726" vehicle_ref="VH-00928">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-29T16:57:44</reported_at>
+    <assigned_at>2026-07-30T06:30:37.717084</assigned_at>
+    <repaired_at>2026-07-30T20:31:18.269801</repaired_at>
+    <returned_to_service_at>2026-08-02T10:49:36.953516</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">13773</labour_cost>
+    <parts_cost currency="EUR" unit="cents">15910</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000727" vehicle_ref="VH-00291">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-31T01:49:31</reported_at>
+    <assigned_at>2026-08-02T05:06:54.061901</assigned_at>
+    <repaired_at>2026-08-05T02:19:14.426853</repaired_at>
+    <returned_to_service_at>2026-08-06T10:09:01.844443</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">23448</labour_cost>
+    <parts_cost currency="EUR" unit="cents">4430</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000728" vehicle_ref="VH-00313">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-01T01:24:46</reported_at>
+    <assigned_at>2026-07-01T07:36:47.756801</assigned_at>
+    <repaired_at>2026-07-02T07:13:51.837293</repaired_at>
+    <returned_to_service_at>2026-07-03T13:48:22.824718</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">12884</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10735</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000729" vehicle_ref="VH-00753">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-28T15:17:09</reported_at>
+    <assigned_at>2026-07-29T17:23:54.791099</assigned_at>
+    <repaired_at>2026-08-03T05:06:22.106130</repaired_at>
+    <returned_to_service_at>2026-08-05T06:13:05.208492</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">6886</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7043</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000730" vehicle_ref="VH-00659">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-25T21:42:18</reported_at>
+    <assigned_at>2026-07-27T16:20:46.734759</assigned_at>
+    <repaired_at>2026-07-29T05:22:07.499524</repaired_at>
+    <returned_to_service_at>2026-07-31T11:04:19.937834</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">14349</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10806</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000731" vehicle_ref="VH-00923">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-28T16:24:08</reported_at>
+    <assigned_at>2026-07-30T07:03:48.266947</assigned_at>
+    <repaired_at>2026-08-03T02:04:01.050410</repaired_at>
+    <returned_to_service_at>2026-08-05T05:31:25.256189</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4302</labour_cost>
+    <parts_cost currency="EUR" unit="cents">17868</parts_cost>
+    <technician>unknown</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000732" vehicle_ref="VH-00688">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-16T01:18:18</reported_at>
+    <assigned_at>2026-07-16T22:55:12.006141</assigned_at>
+    <repaired_at>2026-07-19T02:35:22.317920</repaired_at>
+    <returned_to_service_at>2026-07-21T01:21:24.535342</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">8450</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13351</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000733" vehicle_ref="VH-00596">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-19T06:25:11</reported_at>
+    <assigned_at>2026-07-20T23:09:52.780360</assigned_at>
+    <repaired_at>2026-07-24T02:25:44.354543</repaired_at>
+    <returned_to_service_at>2026-07-25T21:15:22.245502</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">17603</labour_cost>
+    <parts_cost currency="EUR" unit="cents">11006</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000734" vehicle_ref="VH-00909">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-28T19:49:14</reported_at>
+    <assigned_at>2026-07-30T23:38:16.835001</assigned_at>
+    <repaired_at>2026-08-02T12:44:40.873705</repaired_at>
+    <returned_to_service_at>2026-08-05T11:11:30.163249</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">13507</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13779</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000735" vehicle_ref="VH-00501">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-09T00:50:53</reported_at>
+    <assigned_at>2026-07-11T08:35:01.679994</assigned_at>
+    <repaired_at>2026-07-15T12:14:05.709718</repaired_at>
+    <returned_to_service_at>2026-07-17T04:47:48.834781</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">22445</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7881</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000736" vehicle_ref="VH-01032">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-07T17:47:23</reported_at>
+    <assigned_at>2026-07-09T23:23:16.744668</assigned_at>
+    <repaired_at>2026-07-12T11:56:57.230055</repaired_at>
+    <returned_to_service_at>2026-07-15T02:40:54.240092</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">21830</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10412</parts_cost>
+    <technician>Anders K.</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000737" vehicle_ref="VH-00899">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-07T17:14:52</reported_at>
+    <assigned_at>2026-07-08T07:03:40.149065</assigned_at>
+    <repaired_at>2026-07-12T11:26:50.872986</repaired_at>
+    <returned_to_service_at>2026-07-12T20:00:37.618493</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">6589</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7614</parts_cost>
+    <technician>Anders K.</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000738" vehicle_ref="VH-00873">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-23T18:12:01</reported_at>
+    <assigned_at>2026-07-25T04:25:56.963384</assigned_at>
+    <repaired_at>2026-07-27T21:26:41.256703</repaired_at>
+    <returned_to_service_at>2026-07-30T19:16:41.482220</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">22791</labour_cost>
+    <parts_cost currency="EUR" unit="cents">17378</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000739" vehicle_ref="VH-00027">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-27T17:32:29</reported_at>
+    <assigned_at>2026-07-28T05:03:02.025259</assigned_at>
+    <repaired_at>2026-07-30T01:46:08.145843</repaired_at>
+    <returned_to_service_at>2026-07-31T03:42:37.040536</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">21440</labour_cost>
+    <parts_cost currency="EUR" unit="cents">11690</parts_cost>
+    <technician>unknown</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000740" vehicle_ref="VH-00562">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-23T05:17:24</reported_at>
+    <assigned_at>2026-07-23T19:14:02.627978</assigned_at>
+    <technician>Anders K.</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000741" vehicle_ref="VH-00934">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-10T10:06:04</reported_at>
+    <assigned_at>2026-07-12T17:25:51.489326</assigned_at>
+    <repaired_at>2026-07-16T09:28:57.443016</repaired_at>
+    <returned_to_service_at>2026-07-18T12:10:42.640177</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4039</labour_cost>
+    <parts_cost currency="EUR" unit="cents">1832</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000742" vehicle_ref="VH-00550">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-04T02:13:30</reported_at>
+    <assigned_at>2026-07-05T08:44:04.694439</assigned_at>
+    <repaired_at>2026-07-06T16:13:56.544336</repaired_at>
+    <returned_to_service_at>2026-07-09T14:21:58.017023</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">10306</labour_cost>
+    <parts_cost currency="EUR" unit="cents">1067</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000743" vehicle_ref="VH-01039">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-14T09:31:08</reported_at>
+    <assigned_at>2026-07-15T10:57:11.401852</assigned_at>
+    <repaired_at>2026-07-18T17:06:32.364663</repaired_at>
+    <returned_to_service_at>2026-07-18T19:41:53.002649</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">2281</labour_cost>
+    <parts_cost currency="EUR" unit="cents">15092</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000744" vehicle_ref="VH-00093">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-02T08:24:25</reported_at>
+    <assigned_at>2026-07-03T19:31:36.623312</assigned_at>
+    <repaired_at>2026-07-08T04:56:06.331697</repaired_at>
+    <returned_to_service_at>2026-07-10T17:35:15.990387</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">16389</labour_cost>
+    <parts_cost currency="EUR" unit="cents">16470</parts_cost>
+    <technician>unknown</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000745" vehicle_ref="VH-00207">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-09T02:24:12</reported_at>
+    <assigned_at>2026-07-11T03:31:02.879946</assigned_at>
+    <repaired_at>2026-07-12T07:09:23.576145</repaired_at>
+    <returned_to_service_at>2026-07-13T09:32:18.352512</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">11051</labour_cost>
+    <parts_cost currency="EUR" unit="cents">5828</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000746" vehicle_ref="VH-01185">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-25T17:00:18</reported_at>
+    <assigned_at>2026-07-27T01:09:57.906073</assigned_at>
+    <repaired_at>2026-07-30T10:08:36.990552</repaired_at>
+    <returned_to_service_at>2026-07-30T11:40:12.348052</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">22236</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6796</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000747" vehicle_ref="VH-00798">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-22T08:47:51</reported_at>
+    <assigned_at>2026-07-22T16:41:11.049905</assigned_at>
+    <repaired_at>2026-07-26T03:09:23.952086</repaired_at>
+    <returned_to_service_at>2026-07-28T01:40:35.021895</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">13940</labour_cost>
+    <parts_cost currency="EUR" unit="cents">17008</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000748" vehicle_ref="VH-00208">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-31T17:11:43</reported_at>
+    <assigned_at>2026-08-01T13:52:41.395374</assigned_at>
+    <repaired_at>2026-08-04T05:04:05.685687</repaired_at>
+    <returned_to_service_at>2026-08-04T15:04:53.088658</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4039</labour_cost>
+    <parts_cost currency="EUR" unit="cents">9320</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000749" vehicle_ref="VH-00520">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-10T10:24:23</reported_at>
+    <assigned_at>2026-07-11T18:54:55.912929</assigned_at>
+    <repaired_at>2026-07-13T18:36:01.400288</repaired_at>
+    <returned_to_service_at>2026-07-16T18:07:30.105940</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">12555</labour_cost>
+    <parts_cost currency="EUR" unit="cents">15506</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000750" vehicle_ref="VH-00662">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-30T15:09:09</reported_at>
+    <assigned_at>2026-08-01T02:34:45.421760</assigned_at>
+    <repaired_at>2026-08-03T02:49:12.622244</repaired_at>
+    <returned_to_service_at>2026-08-05T16:42:21.957765</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">3581</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6602</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000751" vehicle_ref="VH-00376">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-24T16:05:23</reported_at>
+    <assigned_at>2026-07-27T02:57:50.131351</assigned_at>
+    <technician>Anders K.</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000752" vehicle_ref="VH-00747">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-09T09:36:45</reported_at>
+    <assigned_at>2026-07-10T01:22:34.610563</assigned_at>
+    <repaired_at>2026-07-13T19:41:43.905985</repaired_at>
+    <returned_to_service_at>2026-07-14T06:02:17.924132</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">6985</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13827</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000753" vehicle_ref="VH-00711">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-23T00:44:05</reported_at>
+    <assigned_at>2026-07-25T04:03:19.728274</assigned_at>
+    <repaired_at>2026-07-25T22:27:38.203043</repaired_at>
+    <returned_to_service_at>2026-07-27T15:25:33.634808</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">16179</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6808</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000754" vehicle_ref="VH-00447">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-13T22:53:00</reported_at>
+    <assigned_at>2026-07-15T05:49:45.260761</assigned_at>
+    <repaired_at>2026-07-18T09:58:15.408359</repaired_at>
+    <returned_to_service_at>2026-07-21T01:48:18.921328</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">6549</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14150</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000755" vehicle_ref="VH-01104">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-21T09:28:06</reported_at>
+    <assigned_at>2026-07-23T05:00:04.018575</assigned_at>
+    <repaired_at>2026-07-27T19:13:44.484740</repaired_at>
+    <returned_to_service_at>2026-07-29T08:20:51.191753</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">2188</labour_cost>
+    <parts_cost currency="EUR" unit="cents">5598</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000756" vehicle_ref="VH-01040">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-24T01:13:06</reported_at>
+    <assigned_at>2026-07-24T03:14:47.502420</assigned_at>
+    <repaired_at>2026-07-26T23:31:52.412816</repaired_at>
+    <returned_to_service_at>2026-07-29T23:25:53.539415</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">7133</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12093</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000757" vehicle_ref="VH-00375">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-04T21:04:47</reported_at>
+    <assigned_at>2026-07-05T02:19:40.296334</assigned_at>
+    <repaired_at>2026-07-08T20:01:54.358377</repaired_at>
+    <returned_to_service_at>2026-07-09T02:02:16.351884</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4140</labour_cost>
+    <parts_cost currency="EUR" unit="cents">5482</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000758" vehicle_ref="VH-01154">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-03T20:49:28</reported_at>
+    <assigned_at>2026-07-04T13:32:13.543017</assigned_at>
+    <repaired_at>2026-07-06T03:06:45.745951</repaired_at>
+    <returned_to_service_at>2026-07-07T10:07:17.536948</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4183</labour_cost>
+    <parts_cost currency="EUR" unit="cents">2610</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000759" vehicle_ref="VH-01009">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-16T16:12:15</reported_at>
+    <assigned_at>2026-07-17T18:09:16.805185</assigned_at>
+    <repaired_at>2026-07-18T02:48:45.721284</repaired_at>
+    <returned_to_service_at>2026-07-18T08:02:01.853711</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">14321</labour_cost>
+    <parts_cost currency="EUR" unit="cents">17776</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000760" vehicle_ref="VH-00696">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-18T20:10:37</reported_at>
+    <assigned_at>2026-07-20T23:42:13.613868</assigned_at>
+    <repaired_at>2026-07-24T21:42:45.374021</repaired_at>
+    <returned_to_service_at>2026-07-25T10:31:50.414535</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">8077</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14924</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000761" vehicle_ref="VH-00956">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-01T14:57:04</reported_at>
+    <assigned_at>2026-07-02T03:32:14.722904</assigned_at>
+    <repaired_at>2026-07-05T14:54:11.721065</repaired_at>
+    <returned_to_service_at>2026-07-08T00:10:01.691113</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">9471</labour_cost>
+    <parts_cost currency="EUR" unit="cents">15757</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000762" vehicle_ref="VH-00600">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-26T23:14:46</reported_at>
+    <assigned_at>2026-07-28T07:09:37.861443</assigned_at>
+    <repaired_at>2026-07-30T15:19:28.507001</repaired_at>
+    <returned_to_service_at>2026-07-30T16:57:36.625548</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4812</labour_cost>
+    <parts_cost currency="EUR" unit="cents">5978</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000763" vehicle_ref="VH-00291">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-15T02:13:30</reported_at>
+    <assigned_at>2026-07-15T14:12:36.652616</assigned_at>
+    <repaired_at>2026-07-18T00:55:22.557788</repaired_at>
+    <returned_to_service_at>2026-07-18T12:21:15.445192</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">10081</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12554</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000764" vehicle_ref="VH-00346">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-14T21:33:29</reported_at>
+    <assigned_at>2026-07-17T06:15:00.603954</assigned_at>
+    <repaired_at>2026-07-20T04:51:36.368996</repaired_at>
+    <returned_to_service_at>2026-07-22T20:17:35.637902</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">13044</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14403</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000765" vehicle_ref="VH-01187">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-09T08:31:27</reported_at>
+    <assigned_at>2026-07-10T03:27:03.700152</assigned_at>
+    <repaired_at>2026-07-14T07:20:24.450745</repaired_at>
+    <returned_to_service_at>2026-07-16T15:03:40.813127</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">6567</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7216</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000766" vehicle_ref="VH-00126">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-20T02:24:26</reported_at>
+    <assigned_at>2026-07-20T22:51:56.666280</assigned_at>
+    <technician>unknown</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000767" vehicle_ref="VH-00968">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-29T00:42:51</reported_at>
+    <assigned_at>2026-07-31T11:04:55.078870</assigned_at>
+    <repaired_at>2026-08-03T18:15:44.265713</repaired_at>
+    <returned_to_service_at>2026-08-06T15:36:15.354712</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">23143</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3612</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000768" vehicle_ref="VH-00364">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-25T03:58:23</reported_at>
+    <assigned_at>2026-07-27T00:37:17.111412</assigned_at>
+    <repaired_at>2026-07-31T03:02:04.565305</repaired_at>
+    <returned_to_service_at>2026-08-03T00:54:04.612760</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">18831</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3395</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000769" vehicle_ref="VH-00310">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-29T12:08:49</reported_at>
+    <assigned_at>2026-07-29T23:21:00.347280</assigned_at>
+    <repaired_at>2026-08-03T20:13:51.443864</repaired_at>
+    <returned_to_service_at>2026-08-06T00:11:53.444681</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">10424</labour_cost>
+    <parts_cost currency="EUR" unit="cents">1413</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000770" vehicle_ref="VH-00269">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-16T01:17:08</reported_at>
+    <assigned_at>2026-07-18T01:02:47.214898</assigned_at>
+    <repaired_at>2026-07-19T10:49:00.160547</repaired_at>
+    <returned_to_service_at>2026-07-19T19:41:09.608669</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">10068</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6564</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000771" vehicle_ref="VH-01104">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-27T15:31:42</reported_at>
+    <assigned_at>2026-07-28T01:16:31.060192</assigned_at>
+    <repaired_at>2026-07-28T20:52:43.832741</repaired_at>
+    <returned_to_service_at>2026-07-30T01:52:40.863588</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">1132</labour_cost>
+    <parts_cost currency="EUR" unit="cents">15292</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000772" vehicle_ref="VH-00128">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-05T11:03:10</reported_at>
+    <assigned_at>2026-07-07T22:37:59.801991</assigned_at>
+    <repaired_at>2026-07-08T15:21:05.747627</repaired_at>
+    <returned_to_service_at>2026-07-08T15:56:45.261842</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">12295</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3187</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000773" vehicle_ref="VH-00743">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-14T13:49:11</reported_at>
+    <assigned_at>2026-07-16T11:33:01.710038</assigned_at>
+    <repaired_at>2026-07-17T19:26:06.728820</repaired_at>
+    <returned_to_service_at>2026-07-20T18:38:01.422870</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">6098</labour_cost>
+    <parts_cost currency="EUR" unit="cents">15504</parts_cost>
+    <technician>unknown</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000774" vehicle_ref="VH-00512">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-31T10:43:01</reported_at>
+    <assigned_at>2026-08-01T07:55:40.800338</assigned_at>
+    <repaired_at>2026-08-04T12:26:52.209850</repaired_at>
+    <returned_to_service_at>2026-08-05T14:11:28.039762</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4091</labour_cost>
+    <parts_cost currency="EUR" unit="cents">2342</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000775" vehicle_ref="VH-00499">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-06T11:06:32</reported_at>
+    <assigned_at>2026-07-08T15:18:04.937265</assigned_at>
+    <repaired_at>2026-07-13T12:59:36.676168</repaired_at>
+    <returned_to_service_at>2026-07-15T23:31:44.994652</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">18181</labour_cost>
+    <parts_cost currency="EUR" unit="cents">367</parts_cost>
+    <technician>TECH-114</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000776" vehicle_ref="VH-00526">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-19T11:59:49</reported_at>
+    <assigned_at>2026-07-20T15:50:32.655934</assigned_at>
+    <repaired_at>2026-07-22T22:33:15.491787</repaired_at>
+    <returned_to_service_at>2026-07-24T22:59:48.284411</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">22878</labour_cost>
+    <parts_cost currency="EUR" unit="cents">17751</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000777" vehicle_ref="VH-01058">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-29T00:58:50</reported_at>
+    <assigned_at>2026-07-31T00:59:43.608245</assigned_at>
+    <repaired_at>2026-08-01T03:11:37.789249</repaired_at>
+    <returned_to_service_at>2026-08-03T00:43:51.965494</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">13708</labour_cost>
+    <parts_cost currency="EUR" unit="cents">2869</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000778" vehicle_ref="VH-00674">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-25T21:52:47</reported_at>
+    <assigned_at>2026-07-26T00:35:36.525459</assigned_at>
+    <repaired_at>2026-07-28T07:14:36.934630</repaired_at>
+    <returned_to_service_at>2026-07-29T03:11:36.946987</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">258</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6440</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000779" vehicle_ref="VH-00280">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-10T07:17:37</reported_at>
+    <assigned_at>2026-07-12T14:44:39.958613</assigned_at>
+    <technician>C. Dubois</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000780" vehicle_ref="VH-00046">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-17T05:19:57</reported_at>
+    <assigned_at>2026-07-19T12:13:11.260957</assigned_at>
+    <technician>M. Lopez</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000781" vehicle_ref="VH-00848">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-19T08:41:41</reported_at>
+    <assigned_at>2026-07-21T04:22:44.141945</assigned_at>
+    <repaired_at>2026-07-25T23:23:31.427590</repaired_at>
+    <returned_to_service_at>2026-07-28T06:20:44.519703</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">17694</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10897</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000782" vehicle_ref="VH-00253">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-19T09:23:23</reported_at>
+    <assigned_at>2026-07-21T05:01:40.533298</assigned_at>
+    <repaired_at>2026-07-24T09:27:33.082880</repaired_at>
+    <returned_to_service_at>2026-07-25T17:11:28.826311</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">17341</labour_cost>
+    <parts_cost currency="EUR" unit="cents">5654</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000783" vehicle_ref="VH-01052">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-09T04:30:35</reported_at>
+    <assigned_at>2026-07-09T13:01:38.758398</assigned_at>
+    <repaired_at>2026-07-11T12:07:42.135008</repaired_at>
+    <returned_to_service_at>2026-07-13T02:19:45.093212</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">17413</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14403</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000784" vehicle_ref="VH-00552">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-05T21:12:39</reported_at>
+    <assigned_at>2026-07-08T05:39:04.316494</assigned_at>
+    <repaired_at>2026-07-10T06:16:53.476346</repaired_at>
+    <returned_to_service_at>2026-07-13T06:07:32.168871</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">7008</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3923</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000785" vehicle_ref="VH-00129">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-31T21:08:11</reported_at>
+    <assigned_at>2026-08-02T10:10:43.807068</assigned_at>
+    <technician>J. Ferrer</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000786" vehicle_ref="VH-00397">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-21T06:24:32</reported_at>
+    <assigned_at>2026-07-23T13:09:28.888644</assigned_at>
+    <repaired_at>2026-07-27T03:29:01.932931</repaired_at>
+    <returned_to_service_at>2026-07-30T03:16:20.205180</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">7885</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3897</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000787" vehicle_ref="VH-00650">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-01T06:03:24</reported_at>
+    <assigned_at>2026-07-01T19:34:26.993669</assigned_at>
+    <repaired_at>2026-07-01T22:05:10.798614</repaired_at>
+    <returned_to_service_at>2026-07-02T10:56:45.160952</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">6235</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10789</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000788" vehicle_ref="VH-00204">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-01T14:22:46</reported_at>
+    <assigned_at>2026-07-02T16:30:55.180020</assigned_at>
+    <repaired_at>2026-07-05T07:24:06.204201</repaired_at>
+    <returned_to_service_at>2026-07-06T16:29:35.677230</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">16491</labour_cost>
+    <parts_cost currency="EUR" unit="cents">1291</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000789" vehicle_ref="VH-00064">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-23T09:29:58</reported_at>
+    <assigned_at>2026-07-24T11:44:01.716415</assigned_at>
+    <repaired_at>2026-07-27T12:23:12.552924</repaired_at>
+    <returned_to_service_at>2026-07-28T20:14:05.373455</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">44</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7625</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000790" vehicle_ref="VH-00436">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-05T04:32:39</reported_at>
+    <assigned_at>2026-07-05T14:42:37.080154</assigned_at>
+    <repaired_at>2026-07-07T09:53:05.028782</repaired_at>
+    <returned_to_service_at>2026-07-08T19:33:32.577065</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">22107</labour_cost>
+    <parts_cost currency="EUR" unit="cents">9978</parts_cost>
+    <technician>TECH-114</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000791" vehicle_ref="VH-00347">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-31T15:37:29</reported_at>
+    <assigned_at>2026-08-01T14:49:44.142506</assigned_at>
+    <repaired_at>2026-08-01T23:01:54.588654</repaired_at>
+    <returned_to_service_at>2026-08-03T07:03:01.283552</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4815</labour_cost>
+    <parts_cost currency="EUR" unit="cents">16991</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000792" vehicle_ref="VH-00382">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-14T03:58:54</reported_at>
+    <assigned_at>2026-07-14T18:56:40.838606</assigned_at>
+    <repaired_at>2026-07-18T07:26:33.156304</repaired_at>
+    <returned_to_service_at>2026-07-19T21:06:18.964788</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">20038</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7151</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000793" vehicle_ref="VH-01132">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-06T03:41:31</reported_at>
+    <assigned_at>2026-07-08T07:28:54.495494</assigned_at>
+    <repaired_at>2026-07-10T15:40:54.983873</repaired_at>
+    <returned_to_service_at>2026-07-11T13:01:25.752506</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">19307</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13292</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000794" vehicle_ref="VH-00217">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-30T15:54:58</reported_at>
+    <assigned_at>2026-07-31T13:30:59.207960</assigned_at>
+    <repaired_at>2026-08-03T23:43:22.396967</repaired_at>
+    <returned_to_service_at>2026-08-06T17:06:12.707041</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">160</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6145</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000795" vehicle_ref="VH-00329">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-04T21:35:20</reported_at>
+    <assigned_at>2026-07-05T07:28:24.132631</assigned_at>
+    <technician>  m. lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000796" vehicle_ref="VH-00195">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-08T21:59:57</reported_at>
+    <assigned_at>2026-07-09T23:05:34.257504</assigned_at>
+    <repaired_at>2026-07-11T15:13:40.646299</repaired_at>
+    <returned_to_service_at>2026-07-13T10:10:38.151889</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">19989</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3470</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000797" vehicle_ref="VH-00275">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-21T00:10:52</reported_at>
+    <assigned_at>2026-07-21T20:23:04.926295</assigned_at>
+    <technician>unknown</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000798" vehicle_ref="VH-00161">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-12T17:10:12</reported_at>
+    <assigned_at>2026-07-15T01:02:18.643533</assigned_at>
+    <repaired_at>2026-07-17T20:24:03.412052</repaired_at>
+    <returned_to_service_at>2026-07-18T12:08:21.145006</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">20604</labour_cost>
+    <parts_cost currency="EUR" unit="cents">15812</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000799" vehicle_ref="VH-00325">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-23T21:40:24</reported_at>
+    <assigned_at>2026-07-25T09:47:13.459654</assigned_at>
+    <repaired_at>2026-07-29T08:14:57.246798</repaired_at>
+    <returned_to_service_at>2026-07-31T12:07:20.639385</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">5657</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14669</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000800" vehicle_ref="VH-01104">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-04T16:28:06</reported_at>
+    <assigned_at>2026-07-07T01:23:25.237660</assigned_at>
+    <repaired_at>2026-07-07T16:47:33.402729</repaired_at>
+    <returned_to_service_at>2026-07-07T22:41:25.801985</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">10009</labour_cost>
+    <parts_cost currency="EUR" unit="cents">9100</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000801" vehicle_ref="VH-00375">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-31T07:24:56</reported_at>
+    <assigned_at>2026-07-31T19:16:07.476128</assigned_at>
+    <repaired_at>2026-08-01T19:04:29.281225</repaired_at>
+    <returned_to_service_at>2026-08-04T10:26:36.255290</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">14974</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14218</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000802" vehicle_ref="VH-00860">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-24T08:07:24</reported_at>
+    <assigned_at>2026-07-25T16:10:35.787388</assigned_at>
+    <repaired_at>2026-07-26T17:28:09.529757</repaired_at>
+    <returned_to_service_at>2026-07-26T23:10:31.395835</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">12325</labour_cost>
+    <parts_cost currency="EUR" unit="cents">2479</parts_cost>
+    <technician>unknown</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000803" vehicle_ref="VH-01086">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-06T07:33:18</reported_at>
+    <assigned_at>2026-07-06T11:51:02.729404</assigned_at>
+    <technician>  m. lopez</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000804" vehicle_ref="VH-00741">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-29T01:30:22</reported_at>
+    <assigned_at>2026-07-30T15:13:13.283719</assigned_at>
+    <repaired_at>2026-07-31T21:45:23.499599</repaired_at>
+    <returned_to_service_at>2026-08-02T00:42:19.034136</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">16088</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13467</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000805" vehicle_ref="VH-00308">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-11T05:40:59</reported_at>
+    <assigned_at>2026-07-12T03:30:07.434933</assigned_at>
+    <repaired_at>2026-07-15T06:34:47.076844</repaired_at>
+    <returned_to_service_at>2026-07-18T05:23:08.086164</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">11643</labour_cost>
+    <parts_cost currency="EUR" unit="cents">17892</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000806" vehicle_ref="VH-01022">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-13T00:25:47</reported_at>
+    <assigned_at>2026-07-15T08:19:34.145148</assigned_at>
+    <technician>Anders K.</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000807" vehicle_ref="VH-00426">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-26T11:56:19</reported_at>
+    <assigned_at>2026-07-28T02:30:31.756107</assigned_at>
+    <repaired_at>2026-07-30T22:06:10.337926</repaired_at>
+    <returned_to_service_at>2026-08-02T03:09:38.907376</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">19916</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6849</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000808" vehicle_ref="VH-01003">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-10T11:30:43</reported_at>
+    <assigned_at>2026-07-12T16:38:36.460733</assigned_at>
+    <repaired_at>2026-07-17T10:10:14.439811</repaired_at>
+    <returned_to_service_at>2026-07-19T12:39:30.013438</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">5290</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12175</parts_cost>
+    <technician>unknown</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000809" vehicle_ref="VH-00814">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-12T19:23:58</reported_at>
+    <assigned_at>2026-07-14T17:33:24.632005</assigned_at>
+    <repaired_at>2026-07-16T06:08:48.186100</repaired_at>
+    <returned_to_service_at>2026-07-18T14:56:37.750861</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">12792</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7724</parts_cost>
+    <technician>TECH-114</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000810" vehicle_ref="VH-00763">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-03T16:29:06</reported_at>
+    <assigned_at>2026-07-04T02:12:34.396999</assigned_at>
+    <technician>Anders K.</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000811" vehicle_ref="VH-00318">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-30T09:02:13</reported_at>
+    <assigned_at>2026-08-01T01:09:03.434040</assigned_at>
+    <repaired_at>2026-08-04T20:10:18.851359</repaired_at>
+    <returned_to_service_at>2026-08-06T15:25:33.184642</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">5882</labour_cost>
+    <parts_cost currency="EUR" unit="cents">16071</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000812" vehicle_ref="VH-00518">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-04T00:56:19</reported_at>
+    <assigned_at>2026-07-05T23:20:00.542964</assigned_at>
+    <repaired_at>2026-07-06T05:27:10.394102</repaired_at>
+    <returned_to_service_at>2026-07-07T02:23:00.193558</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">14633</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13317</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000813" vehicle_ref="VH-00994">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-03T04:26:16</reported_at>
+    <assigned_at>2026-07-03T23:29:20.314277</assigned_at>
+    <repaired_at>2026-07-05T19:40:38.172963</repaired_at>
+    <returned_to_service_at>2026-07-07T19:24:21.641215</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4499</labour_cost>
+    <parts_cost currency="EUR" unit="cents">4154</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000814" vehicle_ref="VH-01042">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-13T15:35:23</reported_at>
+    <assigned_at>2026-07-14T06:38:40.865783</assigned_at>
+    <repaired_at>2026-07-19T03:32:33.172249</repaired_at>
+    <returned_to_service_at>2026-07-20T08:12:26.608522</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">21477</labour_cost>
+    <parts_cost currency="EUR" unit="cents">5158</parts_cost>
+    <technician>unknown</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000815" vehicle_ref="VH-00170">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-07T23:52:19</reported_at>
+    <assigned_at>2026-07-08T06:06:21.334516</assigned_at>
+    <repaired_at>2026-07-10T18:57:32.075411</repaired_at>
+    <returned_to_service_at>2026-07-11T06:47:02.525653</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">1919</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10836</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000816" vehicle_ref="VH-00152">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-17T05:18:48</reported_at>
+    <assigned_at>2026-07-17T07:03:26.594699</assigned_at>
+    <repaired_at>2026-07-20T23:53:07.495216</repaired_at>
+    <returned_to_service_at>2026-07-21T05:11:50.598392</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">20482</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10019</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000817" vehicle_ref="VH-00417">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-11T18:46:55</reported_at>
+    <assigned_at>2026-07-12T10:14:01.235711</assigned_at>
+    <repaired_at>2026-07-17T09:23:57.822343</repaired_at>
+    <returned_to_service_at>2026-07-20T07:38:04.208741</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">17074</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10272</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000818" vehicle_ref="VH-01118">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-31T17:58:45</reported_at>
+    <assigned_at>2026-08-03T01:26:06.058457</assigned_at>
+    <repaired_at>2026-08-07T21:46:23.376098</repaired_at>
+    <returned_to_service_at>2026-08-09T12:57:16.233400</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">22808</labour_cost>
+    <parts_cost currency="EUR" unit="cents">4185</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000819" vehicle_ref="VH-00450">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-07T21:56:04</reported_at>
+    <assigned_at>2026-07-09T14:24:45.823119</assigned_at>
+    <repaired_at>2026-07-09T22:21:05.747253</repaired_at>
+    <returned_to_service_at>2026-07-12T20:21:35.880000</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">14363</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7354</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000820" vehicle_ref="VH-00532">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-16T09:24:51</reported_at>
+    <assigned_at>2026-07-16T17:52:23.699471</assigned_at>
+    <repaired_at>2026-07-17T00:42:54.354497</repaired_at>
+    <returned_to_service_at>2026-07-17T10:47:06.468263</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">10952</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12734</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000821" vehicle_ref="VH-01056">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-28T01:56:32</reported_at>
+    <assigned_at>2026-07-29T08:50:05.279276</assigned_at>
+    <repaired_at>2026-08-01T08:10:48.654387</repaired_at>
+    <returned_to_service_at>2026-08-03T02:20:16.568706</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">3802</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7346</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000822" vehicle_ref="VH-00755">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-25T15:40:10</reported_at>
+    <assigned_at>2026-07-26T00:08:51.552858</assigned_at>
+    <repaired_at>2026-07-29T09:07:27.472699</repaired_at>
+    <returned_to_service_at>2026-07-30T14:47:35.614485</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">13988</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3642</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000823" vehicle_ref="VH-00750">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-10T16:04:35</reported_at>
+    <assigned_at>2026-07-10T16:50:13.347972</assigned_at>
+    <repaired_at>2026-07-11T04:49:10.289416</repaired_at>
+    <returned_to_service_at>2026-07-11T05:44:25.443002</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">260</labour_cost>
+    <parts_cost currency="EUR" unit="cents">896</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000824" vehicle_ref="VH-00321">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-27T15:36:21</reported_at>
+    <assigned_at>2026-07-28T23:32:56.656070</assigned_at>
+    <repaired_at>2026-08-02T13:38:27.369351</repaired_at>
+    <returned_to_service_at>2026-08-04T06:57:48.242230</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">15936</labour_cost>
+    <parts_cost currency="EUR" unit="cents">328</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000825" vehicle_ref="VH-00312">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-06T00:02:07</reported_at>
+    <assigned_at>2026-07-07T22:52:58.481550</assigned_at>
+    <repaired_at>2026-07-09T16:37:09.593935</repaired_at>
+    <returned_to_service_at>2026-07-10T07:07:29.793918</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">10062</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6600</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000826" vehicle_ref="VH-00494">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-29T07:10:15</reported_at>
+    <assigned_at>2026-07-29T21:44:54.909712</assigned_at>
+    <technician>TECH-114</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000827" vehicle_ref="VH-00486">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-05T20:36:37</reported_at>
+    <assigned_at>2026-07-07T14:18:34.921834</assigned_at>
+    <technician>M. Lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000828" vehicle_ref="VH-00143">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-09T12:58:34</reported_at>
+    <assigned_at>2026-07-10T09:05:20.614004</assigned_at>
+    <repaired_at>2026-07-12T05:20:19.563401</repaired_at>
+    <returned_to_service_at>2026-07-13T00:15:30.096946</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">13370</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3312</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000829" vehicle_ref="VH-00978">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-10T18:17:02</reported_at>
+    <assigned_at>2026-07-11T14:51:10.241839</assigned_at>
+    <repaired_at>2026-07-12T11:08:01.537561</repaired_at>
+    <returned_to_service_at>2026-07-14T20:00:58.731738</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">7886</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14620</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000830" vehicle_ref="VH-01083">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-10T21:04:41</reported_at>
+    <assigned_at>2026-07-11T09:35:44.093266</assigned_at>
+    <repaired_at>2026-07-14T12:47:06.653760</repaired_at>
+    <returned_to_service_at>2026-07-14T21:33:54.181284</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">2558</labour_cost>
+    <parts_cost currency="EUR" unit="cents">2624</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000831" vehicle_ref="VH-00494">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-01T03:47:55</reported_at>
+    <assigned_at>2026-07-01T08:35:55.874242</assigned_at>
+    <repaired_at>2026-07-04T11:43:34.386901</repaired_at>
+    <returned_to_service_at>2026-07-05T14:37:09.950014</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">11899</labour_cost>
+    <parts_cost currency="EUR" unit="cents">17645</parts_cost>
+    <technician>unknown</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000832" vehicle_ref="VH-00416">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-04T16:08:04</reported_at>
+    <assigned_at>2026-07-04T22:57:14.587862</assigned_at>
+    <repaired_at>2026-07-08T09:41:53.356809</repaired_at>
+    <returned_to_service_at>2026-07-08T18:52:35.724945</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">20441</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12530</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000833" vehicle_ref="VH-01149">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-10T20:00:13</reported_at>
+    <assigned_at>2026-07-13T03:20:43.036853</assigned_at>
+    <repaired_at>2026-07-17T18:18:50.776637</repaired_at>
+    <returned_to_service_at>2026-07-19T04:29:41.430190</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">7241</labour_cost>
+    <parts_cost currency="EUR" unit="cents">8945</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000834" vehicle_ref="VH-01017">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-29T17:56:07</reported_at>
+    <assigned_at>2026-07-30T23:39:38.585510</assigned_at>
+    <repaired_at>2026-07-31T09:40:33.389531</repaired_at>
+    <returned_to_service_at>2026-07-31T16:10:36.810186</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">18198</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10047</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000835" vehicle_ref="VH-00910">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-27T00:06:40</reported_at>
+    <assigned_at>2026-07-28T09:51:09.851012</assigned_at>
+    <repaired_at>2026-07-30T00:07:21.685266</repaired_at>
+    <returned_to_service_at>2026-07-30T23:59:57.446936</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">3544</labour_cost>
+    <parts_cost currency="EUR" unit="cents">4333</parts_cost>
+    <technician>unknown</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000836" vehicle_ref="VH-00489">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-05T11:35:55</reported_at>
+    <assigned_at>2026-07-07T09:33:07.869283</assigned_at>
+    <technician>  m. lopez</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000837" vehicle_ref="VH-00140">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-04T06:30:44</reported_at>
+    <assigned_at>2026-07-04T14:48:05.740295</assigned_at>
+    <technician>J. Ferrer</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000838" vehicle_ref="VH-00214">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-06T11:26:07</reported_at>
+    <assigned_at>2026-07-08T05:11:42.007364</assigned_at>
+    <repaired_at>2026-07-09T14:48:44.947592</repaired_at>
+    <returned_to_service_at>2026-07-11T00:00:44.791495</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">10812</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3861</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000839" vehicle_ref="VH-00500">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-01T19:36:34</reported_at>
+    <assigned_at>2026-07-02T16:28:40.011530</assigned_at>
+    <technician>TECH-114</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000840" vehicle_ref="VH-00905">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-22T07:46:09</reported_at>
+    <assigned_at>2026-07-24T07:45:14.788858</assigned_at>
+    <repaired_at>2026-07-25T12:27:58.876420</repaired_at>
+    <returned_to_service_at>2026-07-25T13:12:30.262211</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4044</labour_cost>
+    <parts_cost currency="EUR" unit="cents">10873</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000841" vehicle_ref="VH-01057">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-16T03:59:37</reported_at>
+    <assigned_at>2026-07-16T06:55:41.370637</assigned_at>
+    <repaired_at>2026-07-19T15:09:19.051945</repaired_at>
+    <returned_to_service_at>2026-07-21T23:57:40.726211</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">18179</labour_cost>
+    <parts_cost currency="EUR" unit="cents">8504</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000842" vehicle_ref="VH-01031">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-30T19:36:18</reported_at>
+    <assigned_at>2026-07-31T10:53:34.723530</assigned_at>
+    <repaired_at>2026-08-03T18:43:39.129737</repaired_at>
+    <returned_to_service_at>2026-08-03T21:15:55.582362</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">19998</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12360</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000843" vehicle_ref="VH-00438">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-25T06:18:22</reported_at>
+    <assigned_at>2026-07-27T05:22:38.072480</assigned_at>
+    <repaired_at>2026-07-28T19:34:53.090558</repaired_at>
+    <returned_to_service_at>2026-07-29T23:05:25.072279</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">8102</labour_cost>
+    <parts_cost currency="EUR" unit="cents">2494</parts_cost>
+    <technician>unknown</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000844" vehicle_ref="VH-01090">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-30T16:54:08</reported_at>
+    <assigned_at>2026-07-31T18:31:45.675131</assigned_at>
+    <repaired_at>2026-08-03T14:36:34.193880</repaired_at>
+    <returned_to_service_at>2026-08-05T15:57:21.970821</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">22183</labour_cost>
+    <parts_cost currency="EUR" unit="cents">8785</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000845" vehicle_ref="VH-00204">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-25T23:37:58</reported_at>
+    <assigned_at>2026-07-27T02:14:36.698447</assigned_at>
+    <technician>  m. lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000846" vehicle_ref="VH-00808">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-05T05:56:02</reported_at>
+    <assigned_at>2026-07-07T06:48:36.995798</assigned_at>
+    <repaired_at>2026-07-10T00:49:47.847499</repaired_at>
+    <returned_to_service_at>2026-07-10T22:03:48.199443</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">7570</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12583</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000847" vehicle_ref="VH-00724">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-22T11:48:48</reported_at>
+    <assigned_at>2026-07-22T18:41:50.918569</assigned_at>
+    <repaired_at>2026-07-23T16:35:45.272529</repaired_at>
+    <returned_to_service_at>2026-07-24T00:19:50.452980</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">11821</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13349</parts_cost>
+    <technician>unknown</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000848" vehicle_ref="VH-01006">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-31T16:37:30</reported_at>
+    <assigned_at>2026-08-01T05:53:28.361870</assigned_at>
+    <repaired_at>2026-08-04T04:30:11.996165</repaired_at>
+    <returned_to_service_at>2026-08-04T16:47:53.103546</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">8620</labour_cost>
+    <parts_cost currency="EUR" unit="cents">4351</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000849" vehicle_ref="VH-00391">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-11T07:36:01</reported_at>
+    <assigned_at>2026-07-11T08:23:44.331978</assigned_at>
+    <repaired_at>2026-07-15T12:46:59.721155</repaired_at>
+    <returned_to_service_at>2026-07-18T12:03:33.859380</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">12855</labour_cost>
+    <parts_cost currency="EUR" unit="cents">8329</parts_cost>
+    <technician>unknown</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000850" vehicle_ref="VH-00511">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-21T01:02:14</reported_at>
+    <assigned_at>2026-07-23T07:08:13.884769</assigned_at>
+    <repaired_at>2026-07-25T03:57:09.653141</repaired_at>
+    <returned_to_service_at>2026-07-27T21:23:15.961700</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">19776</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13127</parts_cost>
+    <technician>unknown</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000851" vehicle_ref="VH-00517">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-26T12:50:05</reported_at>
+    <assigned_at>2026-07-28T18:04:35.469248</assigned_at>
+    <repaired_at>2026-07-29T00:04:42.051404</repaired_at>
+    <returned_to_service_at>2026-07-29T23:31:58.071981</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">21104</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14757</parts_cost>
+    <technician>  m. lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000852" vehicle_ref="VH-00152">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-18T19:37:09</reported_at>
+    <assigned_at>2026-07-20T19:04:12.383241</assigned_at>
+    <repaired_at>2026-07-23T07:42:00.533269</repaired_at>
+    <returned_to_service_at>2026-07-25T08:00:03.263897</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">3769</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13453</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000853" vehicle_ref="VH-00283">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-14T16:42:26</reported_at>
+    <assigned_at>2026-07-14T22:20:37.726065</assigned_at>
+    <repaired_at>2026-07-19T09:32:02.044811</repaired_at>
+    <returned_to_service_at>2026-07-20T23:38:13.757034</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">17879</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12039</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000854" vehicle_ref="VH-00800">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-02T01:11:41</reported_at>
+    <assigned_at>2026-07-03T23:48:16.739021</assigned_at>
+    <repaired_at>2026-07-06T14:17:53.860249</repaired_at>
+    <returned_to_service_at>2026-07-06T23:04:05.457799</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">19340</labour_cost>
+    <parts_cost currency="EUR" unit="cents">12394</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000855" vehicle_ref="VH-00725">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-25T05:59:35</reported_at>
+    <assigned_at>2026-07-27T16:23:38.189374</assigned_at>
+    <repaired_at>2026-08-01T14:57:56.555305</repaired_at>
+    <returned_to_service_at>2026-08-03T10:53:40.734435</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">17775</labour_cost>
+    <parts_cost currency="EUR" unit="cents">15078</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000856" vehicle_ref="VH-00565">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-04T03:35:07</reported_at>
+    <assigned_at>2026-07-06T12:52:26.451133</assigned_at>
+    <repaired_at>2026-07-08T16:50:43.661561</repaired_at>
+    <returned_to_service_at>2026-07-09T01:53:53.926740</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">1306</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13820</parts_cost>
+    <technician>unknown</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000857" vehicle_ref="VH-00825">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-27T14:03:17</reported_at>
+    <assigned_at>2026-07-28T10:23:58.276779</assigned_at>
+    <repaired_at>2026-07-29T22:19:13.397105</repaired_at>
+    <returned_to_service_at>2026-08-01T19:47:03.222558</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">12375</labour_cost>
+    <parts_cost currency="EUR" unit="cents">2457</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000858" vehicle_ref="VH-01012">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-13T00:03:15</reported_at>
+    <assigned_at>2026-07-15T04:56:11.448624</assigned_at>
+    <repaired_at>2026-07-19T14:06:17.419668</repaired_at>
+    <returned_to_service_at>2026-07-19T18:05:37.765076</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">16841</labour_cost>
+    <parts_cost currency="EUR" unit="cents">15404</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000859" vehicle_ref="VH-00194">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-09T18:13:17</reported_at>
+    <assigned_at>2026-07-10T20:45:33.687581</assigned_at>
+    <repaired_at>2026-07-15T13:02:50.457800</repaired_at>
+    <returned_to_service_at>2026-07-16T14:41:02.817008</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">1266</labour_cost>
+    <parts_cost currency="EUR" unit="cents">8988</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000860" vehicle_ref="VH-00948">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-29T07:00:33</reported_at>
+    <assigned_at>2026-07-30T10:09:38.476963</assigned_at>
+    <repaired_at>2026-08-03T14:10:59.046928</repaired_at>
+    <returned_to_service_at>2026-08-06T08:40:01.435782</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">18650</labour_cost>
+    <parts_cost currency="EUR" unit="cents">482</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000861" vehicle_ref="VH-00234">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-21T02:40:51</reported_at>
+    <assigned_at>2026-07-21T21:48:32.460533</assigned_at>
+    <repaired_at>2026-07-26T09:05:23.701131</repaired_at>
+    <returned_to_service_at>2026-07-27T13:53:59.627529</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">14918</labour_cost>
+    <parts_cost currency="EUR" unit="cents">8141</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000862" vehicle_ref="VH-00882">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-15T13:37:52</reported_at>
+    <assigned_at>2026-07-16T08:23:34.483278</assigned_at>
+    <repaired_at>2026-07-18T17:08:44.562951</repaired_at>
+    <returned_to_service_at>2026-07-20T20:34:16.555046</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">22035</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13017</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000863" vehicle_ref="VH-00358">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-14T00:23:56</reported_at>
+    <assigned_at>2026-07-15T15:36:37.319024</assigned_at>
+    <repaired_at>2026-07-20T03:50:52.523266</repaired_at>
+    <returned_to_service_at>2026-07-20T14:31:58.161178</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">18646</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3212</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000864" vehicle_ref="VH-00105">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-07T21:41:34</reported_at>
+    <assigned_at>2026-07-10T09:13:10.887765</assigned_at>
+    <technician>Rui Almeida</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000865" vehicle_ref="VH-00717">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-17T08:21:32</reported_at>
+    <assigned_at>2026-07-17T15:38:25.104520</assigned_at>
+    <repaired_at>2026-07-20T14:59:18.937762</repaired_at>
+    <returned_to_service_at>2026-07-20T17:19:12.680950</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">11996</labour_cost>
+    <parts_cost currency="EUR" unit="cents">13978</parts_cost>
+    <technician>unknown</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000866" vehicle_ref="VH-01188">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-26T21:02:35</reported_at>
+    <assigned_at>2026-07-27T19:39:03.605019</assigned_at>
+    <repaired_at>2026-07-28T04:56:18.475268</repaired_at>
+    <returned_to_service_at>2026-07-30T12:57:57.659110</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">569</labour_cost>
+    <parts_cost currency="EUR" unit="cents">17722</parts_cost>
+    <technician>unknown</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000867" vehicle_ref="VH-00563">
+    <issue code="kickstand_broken">kickstand broken</issue>
+    <reported_at>2026-07-12T22:22:34</reported_at>
+    <assigned_at>2026-07-14T16:16:21.875874</assigned_at>
+    <technician>M. Lopez</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000868" vehicle_ref="VH-00522">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-11T07:37:15</reported_at>
+    <assigned_at>2026-07-11T15:41:05.675278</assigned_at>
+    <repaired_at>2026-07-16T07:13:56.454500</repaired_at>
+    <returned_to_service_at>2026-07-17T06:05:36.896098</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">6907</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7962</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000869" vehicle_ref="VH-00598">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-31T16:55:05</reported_at>
+    <assigned_at>2026-08-02T13:13:24.426369</assigned_at>
+    <technician>Rui Almeida</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000870" vehicle_ref="VH-00326">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-06T19:52:47</reported_at>
+    <assigned_at>2026-07-08T18:36:46.936166</assigned_at>
+    <repaired_at>2026-07-13T02:15:51.876781</repaired_at>
+    <returned_to_service_at>2026-07-14T08:41:32.367483</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">9624</labour_cost>
+    <parts_cost currency="EUR" unit="cents">11224</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000871" vehicle_ref="VH-00629">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-22T22:06:23</reported_at>
+    <assigned_at>2026-07-24T19:30:42.037404</assigned_at>
+    <repaired_at>2026-07-26T03:29:44.764493</repaired_at>
+    <returned_to_service_at>2026-07-27T08:16:44.982960</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">16375</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7720</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000872" vehicle_ref="VH-00243">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-24T12:44:52</reported_at>
+    <assigned_at>2026-07-25T11:18:46.976132</assigned_at>
+    <repaired_at>2026-07-28T11:48:02.787208</repaired_at>
+    <returned_to_service_at>2026-07-30T04:50:34.115792</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">9067</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7789</parts_cost>
+    <technician>C. Dubois</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000873" vehicle_ref="VH-00283">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-10T05:41:51</reported_at>
+    <assigned_at>2026-07-11T00:43:35.866105</assigned_at>
+    <repaired_at>2026-07-13T01:58:24.563658</repaired_at>
+    <returned_to_service_at>2026-07-15T13:34:54.266598</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">20216</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7174</parts_cost>
+    <technician>unknown</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000874" vehicle_ref="VH-00416">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-23T23:16:35</reported_at>
+    <assigned_at>2026-07-24T02:04:19.484003</assigned_at>
+    <repaired_at>2026-07-25T02:21:20.228416</repaired_at>
+    <returned_to_service_at>2026-07-27T14:42:20.816390</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">23781</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14060</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000875" vehicle_ref="VH-00404">
+    <issue code="flat_tyre">flat tyre</issue>
+    <reported_at>2026-07-11T06:30:51</reported_at>
+    <assigned_at>2026-07-12T22:05:26.007568</assigned_at>
+    <repaired_at>2026-07-13T15:49:33.929045</repaired_at>
+    <returned_to_service_at>2026-07-14T16:03:43.895285</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">17678</labour_cost>
+    <parts_cost currency="EUR" unit="cents">2360</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>found on patrol</notes>
+  </event>
+  <event id="MNT-000876" vehicle_ref="VH-00305">
+    <issue code="vandalism">vandalism</issue>
+    <reported_at>2026-07-11T21:34:59</reported_at>
+    <assigned_at>2026-07-13T13:29:57.696010</assigned_at>
+    <repaired_at>2026-07-14T05:41:33.898950</repaired_at>
+    <returned_to_service_at>2026-07-17T04:08:50.081188</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">19368</labour_cost>
+    <parts_cost currency="EUR" unit="cents">5653</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000877" vehicle_ref="VH-00792">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-19T13:49:12</reported_at>
+    <assigned_at>2026-07-20T21:26:10.659802</assigned_at>
+    <repaired_at>2026-07-25T21:10:45.354202</repaired_at>
+    <returned_to_service_at>2026-07-28T03:20:00.297268</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">22512</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14323</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000878" vehicle_ref="VH-00897">
+    <issue code="routine_inspection">routine inspection</issue>
+    <reported_at>2026-07-04T07:31:20</reported_at>
+    <assigned_at>2026-07-04T17:36:47.413953</assigned_at>
+    <repaired_at>2026-07-06T17:25:20.368175</repaired_at>
+    <returned_to_service_at>2026-07-06T21:14:34.249542</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4959</labour_cost>
+    <parts_cost currency="EUR" unit="cents">16122</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes></notes>
+  </event>
+  <event id="MNT-000879" vehicle_ref="VH-00953">
+    <issue code="battery_swap">battery swap</issue>
+    <reported_at>2026-07-06T13:34:48</reported_at>
+    <assigned_at>2026-07-07T23:55:15.155027</assigned_at>
+    <repaired_at>2026-07-09T19:22:45.357723</repaired_at>
+    <returned_to_service_at>2026-07-12T12:10:33.197175</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">6263</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3645</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000880" vehicle_ref="VH-00017">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-13T07:36:27</reported_at>
+    <assigned_at>2026-07-15T17:30:36.147936</assigned_at>
+    <technician>J. Ferrer</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000881" vehicle_ref="VH-00603">
+    <issue code="firmware_bricked">firmware bricked</issue>
+    <reported_at>2026-07-01T08:19:09</reported_at>
+    <assigned_at>2026-07-01T11:10:58.581429</assigned_at>
+    <repaired_at>2026-07-01T12:47:15.639283</repaired_at>
+    <returned_to_service_at>2026-07-01T17:14:32.345274</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">7745</labour_cost>
+    <parts_cost currency="EUR" unit="cents">4713</parts_cost>
+    <technician>Anders K.</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000882" vehicle_ref="VH-00862">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-22T08:06:24</reported_at>
+    <assigned_at>2026-07-24T05:42:20.800957</assigned_at>
+    <repaired_at>2026-07-25T22:18:01.982417</repaired_at>
+    <returned_to_service_at>2026-07-27T04:56:43.552519</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">1175</labour_cost>
+    <parts_cost currency="EUR" unit="cents">7738</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000883" vehicle_ref="VH-00067">
+    <issue code="brake_pads_worn">brake pads worn</issue>
+    <reported_at>2026-07-08T11:04:47</reported_at>
+    <assigned_at>2026-07-09T15:54:22.467718</assigned_at>
+    <repaired_at>2026-07-12T07:27:44.731132</repaired_at>
+    <returned_to_service_at>2026-07-14T01:49:24.769081</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">1717</labour_cost>
+    <parts_cost currency="EUR" unit="cents">3481</parts_cost>
+    <technician>J. Ferrer</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000884" vehicle_ref="VH-00487">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-03T20:28:54</reported_at>
+    <assigned_at>2026-07-06T07:28:06.488744</assigned_at>
+    <repaired_at>2026-07-08T10:46:15.593061</repaired_at>
+    <returned_to_service_at>2026-07-09T09:34:07.884268</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">4648</labour_cost>
+    <parts_cost currency="EUR" unit="cents">6295</parts_cost>
+    <technician>Rui Almeida</technician>
+    <notes>second visit</notes>
+  </event>
+  <event id="MNT-000885" vehicle_ref="VH-00628">
+    <issue code="throttle_fault">throttle fault</issue>
+    <reported_at>2026-07-19T19:58:44</reported_at>
+    <assigned_at>2026-07-20T03:22:06.158557</assigned_at>
+    <repaired_at>2026-07-20T09:06:12.277737</repaired_at>
+    <returned_to_service_at>2026-07-21T11:40:56.791760</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">2592</labour_cost>
+    <parts_cost currency="EUR" unit="cents">9914</parts_cost>
+    <technician>M. Lopez</technician>
+    <notes>part on backorder</notes>
+  </event>
+  <event id="MNT-000886" vehicle_ref="VH-00540">
+    <issue code="gps_module_dead">gps module dead</issue>
+    <reported_at>2026-07-02T09:05:20</reported_at>
+    <assigned_at>2026-07-03T17:26:59.221169</assigned_at>
+    <repaired_at>2026-07-05T01:04:47.632235</repaired_at>
+    <returned_to_service_at>2026-07-05T10:06:16.853125</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">102</labour_cost>
+    <parts_cost currency="EUR" unit="cents">17175</parts_cost>
+    <technician>TECH-114</technician>
+    <notes>customer reported</notes>
+  </event>
+  <event id="MNT-000887" vehicle_ref="VH-00122">
+    <issue code="water_damage">water damage</issue>
+    <reported_at>2026-07-07T01:41:15</reported_at>
+    <assigned_at>2026-07-07T04:01:01.516133</assigned_at>
+    <repaired_at>2026-07-08T12:16:45.689986</repaired_at>
+    <returned_to_service_at>2026-07-08T20:59:57.152592</returned_to_service_at>
+    <labour_cost currency="EUR" unit="cents">19440</labour_cost>
+    <parts_cost currency="EUR" unit="cents">14944</parts_cost>
+    <technician>unknown</technician>
+    <notes>customer reported</notes>
+  </event>
+</maintenance_batch>

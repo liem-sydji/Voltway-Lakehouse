@@ -1,0 +1,15 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-07-03T08:44:25Z,RD-005044,OP-001,Nora,Dubois,nora.dubois277@gmx.de,CTY-TLS,fra,2024-02-15,PLAN-STUDENT,false,active,1987
+U,2026-07-03T21:12:32Z,RD-007865,OP-004,Nadia,Ferrer,NADIA.FERRER213@CORREO.ES,CTY-LIS,PT,2026-04-19,PLAN-CORP,true,active,1973
+U,2026-07-03T09:47:31Z,RD-005277,OP-001,Hugo,Andersson,hugo.andersson486@correo.es,CTY-TLS,fra,2026-05-23,PLAN-PAYG,false,active,1967
+U,2026-07-03T17:21:43Z,RD-003452,OP-001,Diego,Novak,diego.novak540@mail.com,CTY-STO,Spain,2024-04-16,PLAN-UNLIMITED,true,active,1979
+U,2026-07-03T03:51:47Z,RD-003501,OP-001,Ines,Bernard,ines.bernard761@proton.me,CTY-VLC,Spain,2025-01-02,PLAN-COMMUTE,false,active,1985
+U,2026-07-03T01:30:13Z,RD-007561,OP-004,Diego,Vidal,diego.vidal926@proton.me,CTY-GOT,PT,2025-09-06,PLAN-COMMUTE,true,active,1971
+U,2026-07-03T14:44:26Z,RD-005232,OP-001,Lucia,Lopez,lucia.lopez9@mail.com,CTY-TLS,fra,2025-04-07,PLAN-CORP,true,active,1994
+U,2026-07-03T14:55:32Z,RD-006622,OP-003,Chloe,Lopez,chloe.lopez73@proton.me,CTY-STO,SE,2025-12-08,PLAN-STUDENT,true,active,1962
+D,2026-07-03T00:00:00Z,RD-005118,OP-001,Oskar,Kowalski,REDACTED,CTY-TLS,fra,2025-09-23,PLAN-PAYG,true,deleted,1975
+U,2026-07-03T13:08:52Z,RD-004201,OP-001,Elin,Bernard,elin.bernard560@mail.com,CTY-LYO,FR,2025-03-08,PLAN-COMMUTE,true,active,1972
+U,2026-07-03T20:59:15Z,RD-005525,OP-001,Aina,Lopez,aina.lopez559@proton.me,CTY-TLS,fra,2024-05-15,PLAN-STUDENT,false,active,1970
+U,2026-07-03T21:04:33Z,RD-005395,OP-001,Diego,Andersson,diego.andersson662@gmx.de,CTY-TLS,fra,2025-04-20,PLAN-TOURIST,false,active,1993
+U,2026-07-03T08:54:16Z,RD-004415,OP-001,Ines,Serra,INES.SERRA661@OUTLOOK.COM,CTY-LYO,FR,2024-02-28,PLAN-PAYG,false,active,2004
+U,2026-07-03T10:28:08Z,RD-000587,OP-001,Sofia,Novak,sofia.andersson555@correo.es,CTY-BCN,ES,2025-02-12,PLAN-PAYG,false,active,1994

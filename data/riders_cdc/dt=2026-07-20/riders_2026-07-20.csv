@@ -1,0 +1,14 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-07-20T10:58:02Z,RD-007090,OP-003,Nadia,Martin,nadia.martin561@proton.me,CTY-GOT,SWE,2024-06-29,PLAN-PAYG,true,active,1970
+U,2026-07-20T15:29:38Z,RD-007226,OP-004,Ivan,Garcia,ivan.garcia835@mail.com,CTY-LIS,PT,2025-08-31,PLAN-TOURIST,false,active,1975
+U,2026-07-20T14:27:20Z,RD-006231,OP-003,Thomas,Pereira,thomas.pereira526@gmx.de,CTY-STO,SE,2026-03-19,PLAN-PAYG,true,active,1964
+U,2026-07-20T05:44:14Z,RD-001025,OP-001,Thomas,Weber,thomas.weber204@correo.es,CTY-VLC,ES,2024-06-12,PLAN-PAYG,true,active,2001
+U,2026-07-20T02:48:16Z,RD-002934,OP-001,Karim,Almeida,karim.almeida828@mail.com,CTY-MAD,esp,2024-05-09,PLAN-PAYG,false,active,2006
+U,2026-07-20T19:45:19Z,RD-001433,OP-002,Camille,Nilsson,camille.nilsson50@correo.es,CTY-VLC,ES,2026-06-19,PLAN-PAYG,true,active,1995
+U,2026-07-20T15:57:00Z,RD-007517,OP-004,Nils,Martin,nils.martin844@mail.com,CTY-LIS,PT,2024-06-12,PLAN-PAYG,false,active,2000
+U,2026-07-20T09:14:05Z,RD-007224,OP-004,Karim,Lindqvist,karim.lindqvist124@outlook.com,CTY-LIS,PT,2026-05-10,PLAN-TOURIST,true,active,2001
+U,2026-07-20T06:11:05Z,RD-000589,OP-001,Marta,Kowalski,marta.kowalski615@proton.me,CTY-BCN,ES,2025-03-20,PLAN-CORP,false,active,1966
+U,2026-07-20T08:56:33Z,RD-006322,OP-003,Camille,Pereira,camille.pereira793@proton.me,CTY-STO,SE,2026-06-13,PLAN-STUDENT,false,active,1994
+U,2026-07-20T11:03:07Z,RD-007939,OP-004,Louis,Vidal,louis.vidal605@mail.com,CTY-LIS,PT,2024-02-21,PLAN-UNLIMITED,true,active,1965
+U,2026-07-20T14:25:28Z,RD-007691,OP-004,Oskar,Haddad,oskar.haddad53@mail.com,CTY-LIS,PT,2024-09-04,PLAN-PAYG,false,active,2000
+U,2026-07-20T09:04:59Z,RD-001022,OP-002,Louis,Martin,louis.martin66@proton.me,CTY-BCN,ES,2024-10-19,PLAN-CORP,true,active,1981

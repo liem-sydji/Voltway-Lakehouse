@@ -1,0 +1,21 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+I,2026-05-05T01:33:55Z,RD-005935,OP-003,Sofia,Lopez,sofia.lopez967@gmx.de,CTY-STO,SE,2026-05-05,PLAN-PAYG,false,active,1967
+I,2026-05-05T11:14:01Z,RD-004334,OP-001,Nora,Berg,nora.berg138@correo.es,CTY-LYO,FR,2026-05-05,PLAN-PAYG,false,active,2006
+I,2026-05-05T17:16:43Z,RD-006490,OP-003,Oskar,Costa,oskar.costa999@gmx.de,CTY-STO,SE,2026-05-05,PLAN-COMMUTE,false,active,1962
+U,2026-05-05T13:55:17Z,RD-001528,OP-002,Omar,Dubois,omar.dubois741@proton.me,CTY-BCN,ES,2024-11-22,PLAN-UNLIMITED,true,active,2003
+U,2026-05-05T05:18:58Z,RD-007594,OP-004,Louis,Novak,louis.novak596@proton.me,CTY-LIS,PT,2024-02-04,PLAN-COMMUTE,false,active,2005
+U,2026-05-05T15:46:18Z,RD-000379,OP-002,Rui,Nilsson,RUI.NILSSON360@PROTON.ME,CTY-BCN,ES,2024-08-22,PLAN-PAYG,false,active,1991
+U,2026-05-05T05:55:22Z,RD-000669,OP-002,Nadia,Kowalski,nadia.kowalski105@proton.me,CTY-BCN,ES,2026-01-17,PLAN-UNLIMITED,true,active,2007
+U,2026-05-05T18:18:03Z,RD-006623,OP-003,Emil,Moreno,  emil.moreno497@outlook.com ,CTY-STO,SE,2025-05-08,PLAN-STUDENT,false,active,1976
+U,2026-05-05T06:15:09Z,RD-007111,OP-003,Ines,Roux,REDACTED,CTY-GOT,SWE,2025-11-12,PLAN-PAYG,false,deleted,1970
+I,2026-05-05T13:24:42Z,RD-002169,OP-001,Antoine,Rossi,antoine.rossi314@correo.es,CTY-MAD,esp,2026-05-05,PLAN-TOURIST,false,active,1996
+I,2026-05-05T18:36:46Z,RD-005554,OP-003,Lucia,Ferrer,lucia.ferrer417@gmx.de,CTY-STO,SE,2026-05-05,PLAN-PAYG,true,active,1987
+U,2026-05-05T19:08:18Z,RD-007457,OP-004,Omar,Benali,omar.benali479@gmx.de,CTY-LIS,PT,2024-06-12,PLAN-PAYG,false,active,1973
+U,2026-05-05T02:11:56Z,RD-007895,OP-004,Manon,Andersson,manon.andersson706@proton.me,CTY-MAD,PT,2025-08-12,PLAN-UNLIMITED,true,active,1988
+U,2026-05-05T20:08:06Z,RD-006218,OP-003,Tiago,Martin,tiago.martin506@outlook.com,CTY-MAD,SE,2026-02-28,PLAN-PAYG,true,active,1973
+U,2026-05-05T17:06:10Z,RD-006831,OP-003,Thomas,Vidal,thomas.vidal907@mail.com,CTY-GOT,SWE,2026-04-07,PLAN-PAYG,false,active,1999
+I,2026-05-05T16:28:45Z,RD-001485,OP-002,Thomas,Fischer,thomas.fischer463@gmx.de,CTY-BCN,ES,2026-05-05,PLAN-PAYG,false,active,2004
+U,2026-05-05T22:17:04Z,RD-000210,OP-002,Yasmin,Novak,yasmin.novak432@proton.me,CTY-BCN,ES,2025-02-19,PLAN-UNLIMITED,false,active,1990
+I,2026-05-05T09:04:06Z,RD-000304,OP-001,Camille,Ferrer,camille.ferrer878@proton.me,CTY-BCN,ES,2026-05-05,PLAN-COMMUTE,false,active,1976
+U,2026-05-05T15:21:26Z,RD-006968,OP-003,Joan,Ferrer,joan.ferrer103@outlook.com,CTY-BCN,SWE,2025-05-29,PLAN-CORP,true,active,1989
+U,2026-05-05T06:29:19Z,RD-005075,OP-001,Hugo,Dubois,HUGO.DUBOIS797@GMX.DE,CTY-TLS,fra,2024-10-02,PLAN-PAYG,true,active,1973

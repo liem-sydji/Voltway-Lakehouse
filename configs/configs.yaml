@@ -1,0 +1,111 @@
+sources:
+  maintenance:
+    source_system: Trip-Service
+    type: xml
+    path: ./data/maintenance
+    partitioning:
+      style: hive
+      keys: [period]
+      formats: "%Y-%m"
+
+  payments:
+    source_system: Payment-Processor
+    type: json
+    path: ./data/payments
+    partitioning:
+      style: hive
+      keys: [dt]
+      formats: "%Y-%m-%d"
+
+  reference:
+    type: csv
+    references:
+      cities:
+        source_system: GoogleMaps
+        path: ./data/reference/cities.csv
+      operators:
+        source_system: Operators
+        path: ./data/reference/operators.csv
+      plans:
+        source_system: Tariff-Config
+        path: ./data/reference/plans.csv
+      zones:
+        source_system: Geofence-Services
+        path: ./data/reference/zones.csv
+
+  riders_cdc:
+    source_system: Rider-Service
+    type: csv
+    path: ./data/riders_cdc
+    partitioning:
+      style: hive
+      keys: [dt]
+      formats: "%Y-%m-%d"
+
+  rides:
+    source_system: Trip-Service
+    type: csv
+    path: ./data/rides
+    partitioning:
+      style: hive
+      keys: [dt]
+      formats: "%Y-%m-%d"
+
+  telemetry:
+    source_system: IoT-Telemetry
+    type: json
+    path: ./data/telemetry
+    partitioning:
+      style: hive
+      keys: [city,dt,hour]
+      formats: ["","%Y-%m-%d",""]
+
+  vehicles:
+    source_system: Fleet-Registry
+    type: json
+    path: ./data/vehicles
+    partitioning:
+      style: hive
+      keys: [snapshot_date]
+      formats: "%Y-%m-%d"
+
+
+  weather:
+    source_system: Weather-Mirror
+    type: json
+    path: ./data/weather
+    partitioning:
+        style: hive
+        keys: [city]
+        formats: ""
+
+s3_connection:
+  region_name: REGION_NAME
+  aws_access_key_id: AWS_ACCESS_KEY_ID
+  aws_secret_access_key: AWS_SECRET_ACCESS_KEY
+  endpoint_url: ENDPOINT_URLS
+  bucket: BUCKET
+
+spark_session:
+  appName: voltway_session
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

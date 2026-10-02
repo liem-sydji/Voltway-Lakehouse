@@ -1,0 +1,19 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+I,2026-04-21T16:33:24Z,RD-000571,OP-002,Chloe,Rossi,chloe.rossi49@outlook.com,CTY-BCN,ES,2026-04-21,PLAN-PAYG,true,active,1980
+U,2026-04-21T11:03:06Z,RD-003041,OP-001,Freja,Kowalski,freja.kowalski353@outlook.com,CTY-MAD,esp,2024-01-25,PLAN-PAYG,false,active,1993
+I,2026-04-21T09:55:54Z,RD-004175,OP-001,Marta,Costa,marta.costa297@mail.com,CTY-LYO,FR,2026-04-21,PLAN-PAYG,true,active,1993
+U,2026-04-21T23:23:09Z,RD-000278,OP-002,Emil,Kowalski,EMIL.KOWALSKI200@CORREO.ES,CTY-BCN,ES,2025-12-31,PLAN-COMMUTE,true,active,2007
+I,2026-04-21T21:45:25Z,RD-002817,OP-001,Hugo,Lopez,hugo.lopez958@proton.me,CTY-MAD,esp,2026-04-21,PLAN-CORP,true,active,1967
+U,2026-04-21T15:00:44Z,RD-003603,OP-001,Astrid,Haddad,astrid.haddad975@proton.me,CTY-MAD,Spain,2025-07-13,PLAN-PAYG,true,active,1989
+U,2026-04-21T15:47:19Z,RD-007463,OP-004,Oskar,Martin,  oskar.martin932@correo.es ,CTY-LIS,PT,2025-03-19,PLAN-TOURIST,false,active,1966
+U,2026-04-21T18:45:43Z,RD-007485,OP-004,Beatriz,Novak,BEATRIZ.NOVAK33@OUTLOOK.COM,CTY-LIS,PT,2024-08-22,PLAN-STUDENT,false,active,1976
+U,2026-04-21T08:48:32Z,RD-006800,OP-003,Marta,Vidal,marta.vidal19@gmx.de,CTY-GOT,SWE,2025-09-17,PLAN-UNLIMITED,false,active,1978
+I,2026-04-21T23:28:03Z,RD-000442,OP-002,Lucia,Kowalski,LUCIA.KOWALSKI37@PROTON.ME,CTY-BCN,ES,2026-04-21,PLAN-PAYG,false,active,1987
+U,2026-04-21T16:35:11Z,RD-007268,OP-004,Nora,Lindqvist,NORA.LINDQVIST521@PROTON.ME,CTY-LIS,PT,2024-12-14,PLAN-COMMUTE,true,active,1967
+I,2026-04-21T20:49:50Z,RD-004234,OP-001,Omar,Novak,omar.novak732@correo.es,CTY-LYO,FR,2026-04-21,PLAN-PAYG,false,active,2005
+I,2026-04-21T18:57:38Z,RD-007818,OP-004,Freja,Garcia,freja.garcia132@proton.me,CTY-LIS,PT,2026-04-21,PLAN-STUDENT,false,active,1970
+U,2026-04-21T08:46:14Z,RD-002955,OP-001,Manon,Dubois,MANON.DUBOIS640@MAIL.COM,CTY-MAD,esp,2024-09-26,PLAN-PAYG,true,active,1971
+U,2026-04-21T16:49:07Z,RD-004184,OP-001,Oskar,Kowalski,oskar.kowalski674@gmx.de,CTY-LYO,FR,2024-03-27,PLAN-UNLIMITED,true,active,2006
+U,2026-04-21T09:11:02Z,RD-001297,OP-002,Diego,Dubois, diego.dubois163@mail.com ,CTY-BCN,ES,2024-03-13,PLAN-TOURIST,true,active,1988
+U,2026-04-21T17:04:39Z,RD-005841,OP-003,Louis,Costa,louis.costa139@proton.me,CTY-STO,SE,2025-05-02,PLAN-PAYG,false,active,2006
+U,2026-04-21T01:42:09Z,RD-001552,OP-001,Marta,Ferrer,marta.ferrer196@outlook.com,CTY-MAD,esp,2025-02-18,PLAN-UNLIMITED,false,active,2002

@@ -1,0 +1,15 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-07-31T16:36:52Z,RD-004301,OP-001,Chloe,Bernard,chloe.bernard428@correo.es,CTY-LYO,FR,2026-05-02,PLAN-UNLIMITED,true,active,1998
+U,2026-07-31T10:17:15Z,RD-002436,OP-001,Pablo,Rossi,pablo.rossi748@gmx.de,CTY-MAD,esp,2025-12-31,PLAN-CORP,false,active,1991
+D,2026-07-31T00:00:00Z,RD-003513,OP-001,Pablo,Weber,REDACTED,CTY-VLC,Spain,2025-08-07,PLAN-UNLIMITED,true,deleted,1991
+U,2026-07-31T00:49:53Z,RD-000224,OP-001,Karim,Lindqvist,karim.lindqvist969@correo.es,CTY-BCN,ES,2025-11-10,PLAN-UNLIMITED,true,active,1964
+U,2026-07-31T03:17:12Z,RD-005855,OP-003,Chloe,Pereira,chloe.pereira477@correo.es,CTY-STO,SE,2024-07-06,PLAN-PAYG,false,active,1977
+U,2026-07-31T19:34:31Z,RD-001835,OP-001,Elin,Dubois,elin.dubois379@correo.es,CTY-MAD,esp,2025-07-12,PLAN-COMMUTE,false,active,1977
+U,2026-07-31T08:28:39Z,RD-001293,OP-001,Marta,Martin,MARTA.MARTIN203@GMX.DE,CTY-BCN,ES,2024-08-10,PLAN-COMMUTE,false,active,1972
+U,2026-07-31T14:36:09Z,RD-003803,OP-001,Lucia,Kowalski,lucia.rossi70@outlook.com,CTY-VLC,Spain,2025-09-14,PLAN-COMMUTE,false,active,1966
+U,2026-07-31T08:13:58Z,RD-003067,OP-001,Hugo,Benali,hugo.benali591@mail.com,CTY-MAD,esp,2024-07-23,PLAN-CORP,false,active,1991
+U,2026-07-31T03:44:12Z,RD-002062,OP-001,Joan,Bernard,joan.bernard937@outlook.com,CTY-MAD,esp,2025-07-21,PLAN-PAYG,true,active,1978
+U,2026-07-31T12:15:58Z,RD-007954,OP-004,Manon,Weber,  manon.weber886@outlook.com ,CTY-LIS,PT,2025-10-21,PLAN-PAYG,false,active,1977
+U,2026-07-31T14:31:31Z,RD-006748,OP-003,Nils,Conti,  nils.conti95@proton.me ,CTY-GOT,SWE,2025-05-15,PLAN-PAYG,false,active,1973
+U,2026-07-31T07:28:49Z,RD-005572,OP-003,Pablo,Costa,PABLO.COSTA982@PROTON.ME,CTY-STO,SE,2025-06-10,PLAN-PAYG,false,active,1962
+U,2026-07-31T05:41:37Z,RD-000032,OP-002,Emil,Conti,emil.conti408@mail.com,CTY-BCN,ES,2026-04-11,PLAN-PAYG,true,active,1989

@@ -1,0 +1,18 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-05-25T22:35:54Z,RD-000718,OP-002,Joan,Nilsson,joan.nilsson977@gmx.de,CTY-BCN,ES,2025-06-27,PLAN-STUDENT,true,active,1987
+I,2026-05-25T04:30:45Z,RD-007901,OP-004,Omar,Silva,omar.silva41@outlook.com,CTY-LIS,PT,2026-05-25,PLAN-PAYG,false,active,1966
+I,2026-05-25T20:01:42Z,RD-007207,OP-004,Emil,Vidal,emil.vidal326@outlook.com,CTY-LIS,PT,2026-05-25,PLAN-COMMUTE,true,active,1983
+U,2026-05-25T15:38:34Z,RD-003283,OP-001,Sofia,Lindqvist,sofia.lindqvist558@correo.es,CTY-VLC,Spain,2024-04-01,PLAN-PAYG,true,active,1977
+U,2026-05-25T20:19:34Z,RD-002223,OP-001,Freja,Roux,freja.roux476@mail.com,CTY-TLS,esp,2025-02-04,PLAN-PAYG,true,active,1969
+U,2026-05-25T06:17:19Z,RD-002110,OP-001,Tiago,Vidal,tiago.vidal948@correo.es,CTY-MAD,esp,2025-05-30,PLAN-COMMUTE,true,active,2002
+I,2026-05-25T12:31:24Z,RD-001633,OP-001,Hugo,Nilsson,hugo.nilsson755@gmx.de,CTY-MAD,esp,2026-05-25,PLAN-PAYG,false,active,2002
+U,2026-05-25T20:47:58Z,RD-002811,OP-001,Emil,Vidal,  emil.vidal411@mail.com ,CTY-MAD,esp,2025-10-07,PLAN-PAYG,false,active,2005
+I,2026-05-25T09:44:47Z,RD-000588,OP-001,Sofia,Novak,sofia.novak31@correo.es,CTY-BCN,ES,2026-05-25,PLAN-PAYG,true,active,1962
+U,2026-05-25T03:37:28Z,RD-002214,OP-001,Louis,Martin,louis.martin243@proton.me,CTY-MAD,esp,2025-07-10,PLAN-PAYG,true,active,1962
+U,2026-05-25T00:41:38Z,RD-005890,OP-003,Thomas,Nilsson,  thomas.nilsson878@mail.com ,CTY-STO,SE,2026-01-06,PLAN-PAYG,false,active,1976
+U,2026-05-25T00:56:53Z,RD-004734,OP-001,Sofia,Ferrer,sofia.ferrer771@gmx.de,CTY-LYO,FR,2024-02-06,PLAN-PAYG,false,active,1976
+U,2026-05-25T20:36:31Z,RD-000120,OP-002,Astrid,Fischer,astrid.silva1@mail.com,CTY-BCN,ES,2024-11-03,PLAN-PAYG,false,active,1975
+U,2026-05-25T06:26:54Z,RD-001985,OP-001,Louis,Dubois,louis.dubois810@outlook.com,CTY-MAD,esp,2026-01-16,PLAN-COMMUTE,true,active,1980
+U,2026-05-25T00:51:44Z,RD-002529,OP-001,Hugo,Pereira,hugo.pereira55@gmx.de,CTY-MAD,esp,2025-07-20,PLAN-UNLIMITED,false,active,1985
+U,2026-05-25T10:22:03Z,RD-006736,OP-003,Chloe,Conti,chloe.conti873@gmx.de,CTY-GOT,SWE,2024-03-28,PLAN-COMMUTE,true,active,2006
+U,2026-05-25T20:14:57Z,RD-005531,OP-003,Lucia,Benali,lucia.benali657@mail.com,CTY-TLS,SE,2025-05-26,PLAN-COMMUTE,false,active,1978

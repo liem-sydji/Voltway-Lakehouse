@@ -1,0 +1,15 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-07-25T06:08:38Z,RD-001946,OP-001,Pablo,Haddad,REDACTED,CTY-MAD,esp,2025-02-10,PLAN-COMMUTE,false,deleted,1975
+U,2026-07-25T13:28:52Z,RD-007206,OP-004,Louis,Silva,louis.silva323@mail.com,CTY-LIS,PT,2025-04-21,PLAN-TOURIST,true,active,1962
+U,2026-07-25T21:37:04Z,RD-007304,OP-004,Camille,Ferrer,camille.ferrer765@outlook.com,CTY-LIS,PT,2025-08-28,PLAN-STUDENT,false,active,1966
+U,2026-07-25T18:21:57Z,RD-002663,OP-001,Oskar,Silva,oskar.silva217@outlook.com,CTY-MAD,esp,2024-04-25,PLAN-COMMUTE,true,active,1963
+U,2026-07-25T01:12:30Z,RD-004348,OP-001,Astrid,Conti,astrid.conti537@mail.com,CTY-LYO,FR,2024-01-20,PLAN-STUDENT,true,active,2005
+U,2026-07-25T09:31:10Z,RD-007144,OP-003,Ines,Rossi,ines.rossi556@outlook.com,CTY-GOT,SWE,2025-01-06,PLAN-UNLIMITED,false,active,1993
+U,2026-07-25T05:33:21Z,RD-000984,OP-002,Lucia,Serra,lucia.serra237@mail.com,CTY-BCN,ES,2025-05-10,PLAN-STUDENT,false,active,1970
+U,2026-07-25T08:42:01Z,RD-000009,OP-002,Aina,Berg,aina.berg810@gmx.de,CTY-BCN,ES,2025-09-05,PLAN-TOURIST,true,active,1963
+U,2026-07-25T15:36:06Z,RD-005059,OP-001,Ivan,Roux,ivan.roux454@gmx.de,CTY-TLS,fra,2025-07-19,PLAN-COMMUTE,true,active,1986
+D,2026-07-25T00:00:00Z,RD-001588,OP-001,Lucia,Costa,REDACTED,CTY-MAD,esp,2025-09-06,PLAN-PAYG,false,deleted,2001
+U,2026-07-25T12:54:25Z,RD-003800,OP-001,Marta,Ferrer,marta.ferrer254@correo.es,CTY-VLC,Spain,2025-08-10,PLAN-COMMUTE,true,active,1975
+U,2026-07-25T00:37:15Z,RD-002087,OP-001,Marta,Andersson,marta.andersson289@mail.com,CTY-MAD,esp,2024-09-25,PLAN-PAYG,false,active,2008
+U,2026-07-25T19:52:02Z,RD-004139,OP-001,Louis,Lindqvist,LOUIS.LINDQVIST806@PROTON.ME,CTY-LYO,FR,2025-10-28,PLAN-PAYG,false,active,2005
+U,2026-07-25T05:29:27Z,RD-001188,OP-002,Ivan,Rossi,ivan.rossi638@mail.com,CTY-BCN,ES,2024-01-13,PLAN-UNLIMITED,false,active,1974

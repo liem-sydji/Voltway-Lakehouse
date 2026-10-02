@@ -1,0 +1,14 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-06-27T15:36:17Z,RD-002211,OP-001,Ines,Lindqvist,ines.lindqvist274@mail.com,CTY-MAD,esp,2024-11-27,PLAN-UNLIMITED,false,active,1973
+U,2026-06-27T05:52:26Z,RD-002249,OP-001,Marta,Pereira,marta.pereira747@outlook.com,CTY-MAD,esp,2025-08-27,PLAN-PAYG,true,active,1966
+U,2026-06-27T03:42:47Z,RD-006980,OP-003,Yasmin,Rossi,yasmin.rossi482@outlook.com,CTY-GOT,SWE,2024-05-04,PLAN-COMMUTE,true,active,2003
+U,2026-06-27T11:50:41Z,RD-002032,OP-001,Astrid,Berg,astrid.berg853@mail.com,CTY-MAD,esp,2026-04-20,PLAN-PAYG,false,active,1972
+U,2026-06-27T02:13:54Z,RD-005297,OP-001,Manon,Nilsson,manon.nilsson172@proton.me,CTY-BCN,fra,2025-06-26,PLAN-PAYG,false,active,1999
+U,2026-06-27T06:27:50Z,RD-002543,OP-001,Omar,Rossi,omar.rossi709@outlook.com,CTY-MAD,esp,2024-01-02,PLAN-COMMUTE,false,active,1993
+U,2026-06-27T14:54:16Z,RD-001107,OP-002,Tiago,Berg,tiago.berg789@correo.es,CTY-BCN,ES,2024-04-16,PLAN-CORP,true,active,2004
+U,2026-06-27T21:11:48Z,RD-007632,OP-004,Elin,Berg,elin.berg202@proton.me,CTY-BCN,PT,2026-05-11,PLAN-PAYG,true,active,2003
+U,2026-06-27T14:43:05Z,RD-004036,OP-001,Astrid,Conti,astrid.conti799@mail.com,CTY-LYO,FR,2025-07-05,PLAN-STUDENT,true,active,1978
+U,2026-06-27T23:33:28Z,RD-001395,OP-002,Manon,Martin,manon.martin354@proton.me,CTY-STO,ES,2024-10-02,PLAN-COMMUTE,true,active,1994
+U,2026-06-27T00:30:16Z,RD-004498,OP-001,Oskar,Dubois,oskar.dubois487@gmx.de,CTY-LYO,FR,2024-11-23,PLAN-PAYG,false,active,2002
+U,2026-06-27T22:56:14Z,RD-000369,OP-002,Omar,Lindqvist,omar.lindqvist245@gmx.de,CTY-STO,ES,2024-01-04,PLAN-PAYG,false,active,1990
+U,2026-06-27T21:59:51Z,RD-006054,OP-003,Ines,Vidal,ines.vidal852@gmx.de,CTY-STO,SE,2024-03-26,PLAN-PAYG,false,active,2005

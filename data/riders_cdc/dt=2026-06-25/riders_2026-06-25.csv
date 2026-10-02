@@ -1,0 +1,14 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-06-25T16:52:57Z,RD-007817,OP-004,Thomas,Roux,thomas.roux601@gmx.de,CTY-LIS,PT,2024-01-30,PLAN-COMMUTE,false,active,1984
+U,2026-06-25T20:39:45Z,RD-004040,OP-001,Thomas,Benali,thomas.benali947@mail.com,CTY-LYO,FR,2024-02-06,PLAN-PAYG,true,active,2002
+U,2026-06-25T15:42:06Z,RD-000014,OP-002,Oskar,Lopez,oskar.lopez379@gmx.de,CTY-BCN,ES,2025-06-26,PLAN-STUDENT,false,active,1990
+U,2026-06-25T18:52:34Z,RD-007335,OP-004,Nadia,Moreno,nadia.moreno436@mail.com,CTY-LIS,PT,2026-04-29,PLAN-CORP,false,active,2007
+U,2026-06-25T19:35:37Z,RD-002848,OP-001,Rui,Martin,rui.martin556@gmx.de,CTY-MAD,esp,2025-12-29,PLAN-PAYG,false,active,2002
+U,2026-06-25T04:39:28Z,RD-005521,OP-001,Elin,Dubois,elin.haddad14@gmx.de,CTY-TLS,fra,2025-05-08,PLAN-COMMUTE,true,active,2000
+U,2026-06-25T05:22:05Z,RD-007869,OP-004,Elin,Silva,elin.fischer98@mail.com,CTY-LIS,PT,2025-05-27,PLAN-TOURIST,false,active,1980
+U,2026-06-25T21:55:31Z,RD-001954,OP-001,Oskar,Nilsson,OSKAR.NILSSON729@CORREO.ES,CTY-MAD,esp,2025-07-03,PLAN-PAYG,false,active,1996
+U,2026-06-25T01:42:20Z,RD-005990,OP-003,Joan,Garcia,joan.garcia639@proton.me,CTY-STO,SE,2025-08-20,PLAN-CORP,true,active,1998
+U,2026-06-25T14:47:49Z,RD-003801,OP-001,Aina,Almeida,aina.almeida483@gmx.de,CTY-VLC,Spain,2024-07-18,PLAN-PAYG,true,active,1966
+U,2026-06-25T07:58:06Z,RD-000322,OP-002,Emil,Nilsson,emil.silva718@proton.me,CTY-BCN,ES,2024-09-18,PLAN-UNLIMITED,false,active,1996
+U,2026-06-25T00:40:33Z,RD-006829,OP-003,Tiago,Martin,tiago.martin241@mail.com,CTY-GOT,SWE,2024-10-20,PLAN-UNLIMITED,false,active,1997
+U,2026-06-25T23:15:30Z,RD-004566,OP-001,Elin,Lindqvist,elin.lindqvist122@gmx.de,CTY-GOT,FR,2024-08-25,PLAN-PAYG,false,active,1981

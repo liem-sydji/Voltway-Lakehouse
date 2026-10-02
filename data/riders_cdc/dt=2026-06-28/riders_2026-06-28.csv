@@ -1,0 +1,15 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+D,2026-06-28T00:00:00Z,RD-002355,OP-001,Joan,Silva,REDACTED,CTY-MAD,esp,2024-02-02,PLAN-COMMUTE,true,deleted,1998
+U,2026-06-28T23:26:45Z,RD-003817,OP-001,Diego,Dubois,diego.dubois588@proton.me,CTY-VLC,Spain,2026-01-31,PLAN-STUDENT,true,active,1992
+U,2026-06-28T09:41:02Z,RD-005110,OP-001,Louis,Kowalski,louis.kowalski462@correo.es,CTY-TLS,fra,2026-02-27,PLAN-STUDENT,true,active,1990
+U,2026-06-28T23:32:35Z,RD-001413,OP-001,Camille,Berg,camille.berg17@outlook.com,CTY-BCN,ES,2025-09-21,PLAN-PAYG,true,active,1983
+U,2026-06-28T22:55:24Z,RD-002914,OP-001,Nils,Weber,nils.weber88@outlook.com,CTY-MAD,esp,2025-05-07,PLAN-UNLIMITED,true,active,1972
+U,2026-06-28T08:31:43Z,RD-000927,OP-001,Thomas,Fischer,thomas.martin974@outlook.com,CTY-BCN,ES,2025-08-31,PLAN-PAYG,false,active,1971
+U,2026-06-28T22:22:46Z,RD-007561,OP-004,Diego,Vidal,diego.vidal926@proton.me,CTY-GOT,PT,2025-09-06,PLAN-UNLIMITED,true,active,1971
+U,2026-06-28T08:37:51Z,RD-001688,OP-001,Diego,Dubois,diego.dubois946@proton.me,CTY-MAD,esp,2024-10-04,PLAN-COMMUTE,true,active,2004
+U,2026-06-28T05:00:53Z,RD-004370,OP-001,Louis,Bernard,louis.bernard789@gmx.de,CTY-LYO,FR,2026-03-11,PLAN-PAYG,false,active,1970
+U,2026-06-28T18:34:18Z,RD-003298,OP-001,Nora,Roux,nora.roux163@mail.com,CTY-MAD,Spain,2025-04-10,PLAN-UNLIMITED,true,active,1985
+U,2026-06-28T07:08:53Z,RD-001739,OP-001,Oskar,Fischer,oskar.fischer235@correo.es,CTY-MAD,esp,2024-05-23,PLAN-PAYG,false,active,1973
+U,2026-06-28T04:04:12Z,RD-007357,OP-004,Omar,Martin,  omar.martin132@gmx.de ,CTY-LIS,PT,2024-07-06,PLAN-PAYG,false,active,1982
+U,2026-06-28T18:18:35Z,RD-002300,OP-001,Ivan,Pereira,ivan.pereira55@outlook.com,CTY-MAD,esp,2024-08-24,PLAN-PAYG,false,active,2002
+U,2026-06-28T04:41:12Z,RD-001751,OP-001,Omar,Roux,omar.roux690@correo.es,CTY-MAD,esp,2024-01-26,PLAN-COMMUTE,true,active,2004

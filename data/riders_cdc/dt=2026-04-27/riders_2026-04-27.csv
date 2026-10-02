@@ -1,0 +1,19 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-04-27T14:56:42Z,RD-006197,OP-003,Marta,Lopez,marta.conti765@mail.com,CTY-STO,SE,2025-05-31,PLAN-PAYG,true,active,1983
+U,2026-04-27T05:21:23Z,RD-003431,OP-001,Diego,Andersson,diego.andersson651@mail.com,CTY-VLC,Spain,2026-04-17,PLAN-CORP,false,active,1962
+U,2026-04-27T14:17:11Z,RD-000628,OP-002,Elin,Bernard,elin.bernard768@mail.com,CTY-STO,ES,2025-05-20,PLAN-COMMUTE,false,active,2005
+I,2026-04-27T22:43:48Z,RD-006860,OP-003,Emil,Weber,emil.weber264@mail.com,CTY-GOT,SWE,2026-04-27,PLAN-PAYG,true,active,1965
+U,2026-04-27T04:01:28Z,RD-007635,OP-004,Joan,Pereira,joan.pereira826@gmx.de,CTY-TLS,PT,2024-07-29,PLAN-TOURIST,false,active,1977
+U,2026-04-27T15:20:13Z,RD-001684,OP-001,Oskar,Andersson,oskar.almeida343@correo.es,CTY-MAD,esp,2024-04-04,PLAN-TOURIST,false,active,1985
+U,2026-04-27T12:23:22Z,RD-000952,OP-002,Chloe,Nilsson, chloe.nilsson573@gmx.de ,CTY-BCN,ES,2024-02-16,PLAN-UNLIMITED,true,active,1971
+U,2026-04-27T01:16:58Z,RD-001443,OP-002,Marta,Fischer,marta.conti678@correo.es,CTY-BCN,ES,2026-04-09,PLAN-PAYG,false,active,1975
+U,2026-04-27T21:45:02Z,RD-004536,OP-001,Lucia,Weber,lucia.weber494@mail.com,CTY-BCN,FR,2026-03-07,PLAN-PAYG,true,active,1988
+I,2026-04-27T21:45:29Z,RD-004529,OP-001,Rui,Silva,rui.silva665@correo.es,CTY-LYO,FR,2026-04-27,PLAN-PAYG,false,active,1965
+U,2026-04-27T22:36:38Z,RD-001416,OP-001,Marta,Conti,marta.conti653@gmx.de,CTY-LYO,ES,2026-03-28,PLAN-UNLIMITED,false,active,1998
+U,2026-04-27T09:25:22Z,RD-000162,OP-002,Manon,Costa,manon.costa73@outlook.com,CTY-BCN,ES,2026-03-04,PLAN-PAYG,true,active,2008
+D,2026-04-27T00:00:00Z,RD-002996,OP-001,Elin,Ferrer,REDACTED,CTY-MAD,esp,2025-10-02,PLAN-UNLIMITED,true,deleted,2007
+U,2026-04-27T09:44:17Z,RD-005533,OP-003,Marta,Fischer,marta.fischer854@gmx.de,CTY-STO,SE,2024-02-18,PLAN-PAYG,false,active,1999
+I,2026-04-27T07:31:54Z,RD-007039,OP-003,Freja,Novak,freja.novak120@proton.me,CTY-GOT,SWE,2026-04-27,PLAN-PAYG,false,active,1963
+U,2026-04-27T09:25:47Z,RD-004097,OP-001,Ivan,Martin,ivan.martin314@outlook.com,CTY-LYO,FR,2024-09-04,PLAN-TOURIST,false,active,1965
+U,2026-04-27T02:31:47Z,RD-002247,OP-001,Hugo,Almeida,hugo.almeida304@outlook.com,CTY-MAD,esp,2024-08-03,PLAN-PAYG,false,active,1975
+I,2026-04-27T07:01:08Z,RD-006668,OP-003,Karim,Ferrer,karim.ferrer324@mail.com,CTY-GOT,SWE,2026-04-27,PLAN-COMMUTE,true,active,2008

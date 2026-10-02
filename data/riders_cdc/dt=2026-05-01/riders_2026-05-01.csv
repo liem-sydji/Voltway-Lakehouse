@@ -1,0 +1,16 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-05-01T15:29:09Z,RD-000225,OP-002,Aina,Almeida,aina.almeida175@mail.com,CTY-BCN,ES,2025-05-03,PLAN-PAYG,false,active,1990
+I,2026-05-01T18:31:12Z,RD-004141,OP-001,Nils,Garcia,nils.garcia892@proton.me,CTY-LYO,FR,2026-05-01,PLAN-PAYG,true,active,2007
+U,2026-05-01T08:30:39Z,RD-000822,OP-002,Manon,Garcia,manon.garcia414@correo.es,CTY-TLS,ES,2026-02-08,PLAN-PAYG,false,active,1983
+U,2026-05-01T21:26:10Z,RD-003803,OP-001,Lucia,Kowalski,lucia.rossi70@outlook.com,CTY-VLC,Spain,2025-09-14,PLAN-PAYG,false,active,1966
+U,2026-05-01T07:18:08Z,RD-000068,OP-002,Diego,Moreno, diego.moreno558@outlook.com ,CTY-MAD,ES,2026-01-10,PLAN-PAYG,true,active,1964
+U,2026-05-01T04:06:14Z,RD-002364,OP-001,Oskar,Bernard,oskar.bernard846@gmx.de,CTY-MAD,esp,2024-02-14,PLAN-PAYG,false,active,1994
+U,2026-05-01T14:48:19Z,RD-003398,OP-001,Nils,Bernard,nils.bernard646@mail.com,CTY-VLC,Spain,2024-07-18,PLAN-UNLIMITED,false,active,1965
+U,2026-05-01T00:08:31Z,RD-002768,OP-001,Joan,Almeida,joan.almeida60@correo.es,CTY-MAD,esp,2024-11-27,PLAN-PAYG,true,active,1979
+U,2026-05-01T10:12:36Z,RD-000381,OP-002,Karim,Serra,  karim.serra171@outlook.com ,CTY-BCN,ES,2024-11-15,PLAN-PAYG,true,active,2001
+U,2026-05-01T02:51:53Z,RD-004147,OP-001,Emil,Roux,emil.roux977@proton.me,CTY-STO,FR,2025-03-08,PLAN-UNLIMITED,false,active,2006
+U,2026-05-01T14:04:06Z,RD-003015,OP-001,Ivan,Lopez,ivan.costa589@correo.es,CTY-MAD,esp,2024-07-11,PLAN-COMMUTE,true,active,1963
+U,2026-05-01T05:47:55Z,RD-002780,OP-001,Nora,Fischer,  nora.fischer897@mail.com ,CTY-MAD,esp,2024-04-18,PLAN-PAYG,false,active,1984
+U,2026-05-01T01:16:12Z,RD-007255,OP-004,Ines,Dubois,ines.dubois160@proton.me,CTY-LIS,PT,2024-10-30,PLAN-CORP,true,active,1976
+U,2026-05-01T04:26:17Z,RD-004679,OP-001,Beatriz,Berg,beatriz.berg591@correo.es,CTY-LYO,FR,2024-02-15,PLAN-PAYG,true,active,1984
+I,2026-05-01T02:01:01Z,RD-003569,OP-001,Nadia,Andersson,nadia.andersson318@mail.com,CTY-VLC,Spain,2026-05-01,PLAN-COMMUTE,false,active,1997

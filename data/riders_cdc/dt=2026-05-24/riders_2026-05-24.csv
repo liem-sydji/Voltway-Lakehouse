@@ -1,0 +1,18 @@
+op,op_ts,rider_id,operator_id,first_name,last_name,email,home_city_id,country,signup_date,plan_id,marketing_consent,account_status,birth_year
+U,2026-05-24T02:48:27Z,RD-000483,OP-002,Hugo,Nilsson,   hugo.nilsson931@gmx.de  ,CTY-BCN,ES,2025-11-12,PLAN-PAYG,false,active,1962
+U,2026-05-24T09:45:09Z,RD-007865,OP-004,Nadia,Ferrer,NADIA.FERRER213@CORREO.ES,CTY-LIS,PT,2026-04-19,PLAN-COMMUTE,true,active,1973
+U,2026-05-24T15:14:25Z,RD-000426,OP-001,Camille,Rossi,camille.rossi827@correo.es,CTY-BCN,ES,2025-03-04,PLAN-UNLIMITED,false,active,2004
+I,2026-05-24T08:13:00Z,RD-001859,OP-001,Rui,Dubois,rui.dubois209@correo.es,CTY-MAD,esp,2026-05-24,PLAN-PAYG,true,active,1984
+U,2026-05-24T11:29:09Z,RD-001343,OP-001,Manon,Fischer,manon.lopez846@gmx.de,CTY-BCN,ES,2026-03-06,PLAN-UNLIMITED,true,active,2001
+U,2026-05-24T09:34:54Z,RD-004848,OP-001,Rui,Kowalski,rui.kowalski476@gmx.de,CTY-LYO,FR,2025-08-13,PLAN-UNLIMITED,false,active,1969
+I,2026-05-24T23:33:45Z,RD-000012,OP-002,Oskar,Dubois,oskar.dubois761@proton.me,CTY-BCN,ES,2026-05-24,PLAN-PAYG,true,active,2005
+U,2026-05-24T06:51:46Z,RD-002202,OP-001,Antoine,Vidal,antoine.vidal816@correo.es,CTY-VLC,esp,2024-07-19,PLAN-STUDENT,true,active,1982
+U,2026-05-24T12:17:31Z,RD-003727,OP-001,Ivan,Lindqvist,ivan.lindqvist266@proton.me,CTY-BCN,Spain,2026-05-13,PLAN-PAYG,false,active,1993
+U,2026-05-24T01:05:04Z,RD-005938,OP-003,Marta,Rossi,marta.rossi239@outlook.com,CTY-STO,SE,2024-07-23,PLAN-PAYG,true,active,1994
+U,2026-05-24T06:37:53Z,RD-004438,OP-001,Pablo,Weber,pablo.weber326@gmx.de,CTY-LYO,FR,2025-10-10,PLAN-PAYG,true,active,2000
+U,2026-05-24T09:33:06Z,RD-006289,OP-003,Thomas,Martin,thomas.martin987@outlook.com,CTY-STO,SE,2026-03-21,PLAN-UNLIMITED,true,active,1985
+D,2026-05-24T00:00:00Z,RD-003958,OP-001,Hugo,Nilsson,REDACTED,CTY-VLC,Spain,2025-05-27,PLAN-UNLIMITED,false,deleted,1990
+U,2026-05-24T13:14:58Z,RD-007429,OP-004,Tiago,Lindqvist,tiago.lindqvist856@proton.me,CTY-LIS,PT,2026-03-19,PLAN-CORP,false,active,1999
+U,2026-05-24T13:38:24Z,RD-001937,OP-001,Oskar,Benali,oskar.benali305@gmx.de,CTY-MAD,esp,2025-02-14,PLAN-UNLIMITED,true,active,1997
+I,2026-05-24T21:33:38Z,RD-003589,OP-001,Freja,Andersson,freja.andersson212@outlook.com,CTY-VLC,Spain,2026-05-24,PLAN-COMMUTE,true,active,1981
+U,2026-05-24T12:46:55Z,RD-005537,OP-003,Marta,Bernard,marta.bernard382@proton.me,CTY-MAD,SE,2025-10-21,PLAN-PAYG,false,active,1996

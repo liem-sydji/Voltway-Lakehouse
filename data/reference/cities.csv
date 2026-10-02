@@ -1,0 +1,9 @@
+city_id,city_name,country,timezone,currency,centre_lat,centre_lon,population_k,launched_on
+CTY-BCN,Barcelona,ES,Europe/Madrid,EUR,41.3874,2.1686,2294,2023-11-21
+CTY-MAD,Madrid,esp,Europe/Madrid,EUR,40.4168,-3.7038,2879,2025-02-12
+CTY-VLC,Valencia,Spain,Europe/Madrid,EUR,39.4699,-0.3763,2027,2024-02-18
+CTY-LYO,Lyon,FR,Europe/Paris,EUR,45.764,4.8357,3279,2024-07-04
+CTY-TLS,Toulouse,fra,Europe/Paris,EUR,43.6047,1.4442,346,2025-03-19
+CTY-STO,Stockholm,SE,Europe/Stockholm,SEK,59.3293,18.0686,2262,2023-07-19
+CTY-GOT,Goteborg,SWE,Europe/Stockholm,SEK,57.7089,11.9746,1518,2023-12-13
+CTY-LIS,Lisbon,PT,Europe/Lisbon,EUR,38.7223,-9.1393,3103,2024-12-06

@@ -41,7 +41,7 @@ def transform_cities():
     cities = cities.withColumn("country",
                                when(col("country" ).isin(["ES","Spain","esp" ]),"ES").when(col("country").isin(["FR","France","fra"]),"FR").when(col("country").isin(["SE","Sweden","SWE"]),"SE").otherwise("PT"))
     cities = cities.withColumn("population_k", col("population_k").cast(IntegerType()))
-    cities.write.parquet(f"s3a://{bucket}/silver/city/", mode="overwrite")
+    cities.write.parquet(f"s3a://{bucket}/silver/cities/", mode="overwrite")
 
 def transform_operators():
     operators_path = f"s3a://{bucket}/bronze/reference/operators.parquet"
@@ -183,10 +183,11 @@ def transform_rides():
     rides = rides.withColumn("is_test", col("is_test").cast(BooleanType()))
     rides = rides.drop("ingest_date")
     rides = rides.withColumn("fare_amount_euros", when(col("currency")==lit("SEK"), col("fare_amount")*0.088).otherwise(col("fare_amount")))
+    dlq = dlq_1.unionByName(dlq_2,allowMissingColumns=True)
 
     rides.write.parquet(f"s3a://{bucket}/silver/rides/", mode="overwrite", partitionBy="ride_date")
-    dlq_1.write.parquet(f"s3a://{bucket}/_quarantine/rides/", mode="append", partitionBy="ingest_date")
-    dlq_2.write.parquet(f"s3a://{bucket}/_quarantine/rides/", mode="append", partitionBy="ingest_date")
+    dlq.write.parquet(f"s3a://{bucket}/_quarantine/rides/", mode="overwrite", partitionBy="reject_date")
+
 
 def transform_payments():
     payments = spark.read.parquet(f"s3a://{bucket}/bronze/payments/")
@@ -194,15 +195,16 @@ def transform_payments():
     payments = payments.dropDuplicates(["payment_id"])
     payments = payments.withColumns({"amount_minor":col("amount_minor").cast(LongType()),
                                      "captured_at": try_to_timestamp(col("captured_at"))})
-    payments = payments.withColumn("amount",col("amount_minor")*0.001)
-    payments = payments.withColumn("amount_euros", when(col("currency")==lit("SEK"), (col("amount")*0.088).cast(DecimalType(10,2)) ).otherwise(col("amount").cast(DecimalType(10,2))))
+    payments = payments.withColumn("amount",(col("amount_minor").cast(DecimalType())*0.01).cast(DecimalType(10,2)))
+    payments = payments.withColumn("amount_euros", when(col("currency")==lit("SEK"), (col("amount")*0.088).cast(DecimalType(10,2)) ).otherwise(col("amount")))
     payments = payments.withColumn("ride_id", col("external_ref")).drop(col("external_ref"))
-    payments = payments.withColumn("ingest_date", to_date(col("ingest_date")))
+    payments = payments.withColumn("_ingest_date", to_date(col("_ingest_date")))
+    payments = payments.drop("ingest_date")
     dlq = payments.join(broadcast(rides), on="ride_id", how="left_anti").withColumns({
         "_reject_reason":lit("Invalid ride_id"),
         "_reject_ts": current_timestamp(),
         "_table": lit("payments")
-    })
+    }).withColumn("reject_date", to_date(col("_reject_ts")))
     payments = payments.join(broadcast(rides), on="ride_id", how="left_semi")
     payments = payments.withColumn("is_charge", when(col("type")=="charge",lit(True)).otherwise(lit(False)))
     payments = payments.withColumn("payment_date", to_date(col("captured_at")))
@@ -210,7 +212,7 @@ def transform_payments():
     payments = payments.drop("customer_country")
     payments.write.parquet(f"s3a://{bucket}/silver/payments/", mode="overwrite", partitionBy="payment_date")
     #CHANGE TO MODE "append" LATER ON !!!!
-    dlq.write.parquet(f"s3a://{bucket}/_quarantine/payments/", mode="overwrite", partitionBy="ingest_date")
+    dlq.write.parquet(f"s3a://{bucket}/_quarantine/payments/", mode="overwrite", partitionBy="reject_date")
 
 def transform_telemetry():
     telemetry = spark.read.option("mergeSchema","true").parquet(f"s3a://{bucket}/bronze/telemetry/")
@@ -219,9 +221,9 @@ def transform_telemetry():
     telemetry = telemetry.withColumn("is_registered_vehicle", when(col("vehicle_id").isin(unique_vehicle_ids), lit(True)).otherwise(lit(False)))
     telemetry = telemetry.dropDuplicates(["event_id"])
     telemetry = telemetry.withColumn("battery", col("battery").cast(DecimalType(10,4)))
-    telemetry = telemetry.withColumns({"lan":col("lan").cast(FloatType()),
+    telemetry = telemetry.withColumns({"lat":col("lat").cast(FloatType()),
                                        "lon":col("lon").cast(FloatType())})
-    telemetry = telemetry.withColumns({"lan":when((col("lat")==0) & (col("lon")==0),lit(None)).otherwise(col("lat")),
+    telemetry = telemetry.withColumns({"lat":when((col("lat")==0) & (col("lon")==0),lit(None)).otherwise(col("lat")),
                                        "lon":when((col("lat")==0) & (col("lon")==0),lit(None)).otherwise(col("lon"))})
     telemetry = telemetry.withColumn("is_locked", col("is_locked").cast(BooleanType()))
     telemetry = telemetry.dropDuplicates(["event_id"])
@@ -232,7 +234,7 @@ def transform_telemetry():
     telemetry = telemetry.withColumn("event_date", to_date(col("ts")))
     telemetry = telemetry.withColumn("_ingest_date", to_date(col("_ingest_date")))
     telemetry = telemetry.drop("ingest_date")
-    telemetry = telemetry.withColumn("battery", when(col("battery").rlike(r"^\d{1,2}\.\d{1}$"), col("battery").cast(DecimalType(10,2))/100).otherwise(col("battery").cast(DecimalType(10,4))))
+    telemetry = telemetry.withColumn("battery", when(col("battery").rlike(r"^\d{1,2}\.\d{1}$"), col("battery").cast(DecimalType(10,2))*0.01).otherwise(col("battery").cast(DecimalType(10,4))))
 
     telemetry.write.parquet(f"s3a://{bucket}/silver/telemetry/",mode="overwrite", partitionBy="event_date")
 

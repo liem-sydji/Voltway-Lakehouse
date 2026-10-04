@@ -21,15 +21,19 @@ sources:
     type: csv
     references:
       cities:
+        scd_type: 1
         source_system: GoogleMaps
         path: ./data/reference/cities.csv
       operators:
+        scd_type: 1
         source_system: Operators
         path: ./data/reference/operators.csv
       plans:
+        scd_type: 2
         source_system: Tariff-Config
         path: ./data/reference/plans.csv
       zones:
+        scd_type: 2
         source_system: Geofence-Services
         path: ./data/reference/zones.csv
 

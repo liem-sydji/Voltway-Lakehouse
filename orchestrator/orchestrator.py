@@ -4,6 +4,8 @@ PROJECT_DIR = Path(__file__).parent.parent
 from elt.load.landing import s3load_partitioned_data, s3_load_references
 from elt.load.load_bronze import *
 from elt.transform.transform_silver import *
+from elt.transform.gold_layer.dimensions import *
+from elt.transform.gold_layer.facts import *
 from configs.config import *
 
 # 1 Resolve Source Paths
@@ -49,11 +51,15 @@ for src, dts in source_dts_dict.items():
 
     if dts[0][0]== "city":
         for dt in dts:
-           load(src, city=dt[1])
+            try:
+                s3.head_object(Bucket=bucket, Key= f"bronze/{src}/{dt[0]}={dt[1]}/part-0.parquet")
+                continue
+            except ClientError:
+                load(src, city=dt[1])
     else:
         for dt in dts:
             try:
-                s3.head_object(Bucket=bucket, Key=f"bronze/{src}/ingest_date={dt[1]}/part-0.parquet")
+                s3.head_object(Bucket=bucket, Key=f"bronze/{src}/{dt[0]}={dt[1]}/part-0.parquet")
                 continue
             except ClientError:
 
@@ -64,13 +70,13 @@ for src, dts in source_dts_dict.items():
 for keys in paginate_over_telemetry():
     try:
         key = f"bronze/telemetry/city={keys[0]['city']}/dt={keys[0]['dt']}/hour={keys[0]['hour']}/part-0.parquet"
-        s3.head_object(Bucket=bucket, Key=f"bronze/telemetry/city={keys[0]['city']}/ingest_date={keys[0]['dt']}/hour={keys[0]['hour']}/part-0.parquet")
+        s3.head_object(Bucket=bucket, Key=key)
         continue
     except ClientError as e:
         load(source="telemetry", city=keys[0]['city'], dt=keys[0]['dt'], hr=keys[0]['hour'])
 
 
-
+#Silver Layer
 transform_cities()
 transform_operators()
 transform_plans()
@@ -82,3 +88,17 @@ transform_weather()
 transform_rides()
 transform_payments()
 transform_telemetry()
+
+#Gold Layer
+
+  #Dimension tables
+
+reference_dimensions()
+dimension_vehicle()
+dimension_riders_cdc()
+dim_date()
+dim_time_of_day()
+dimension_payment_method()
+dim_weather()
+
+

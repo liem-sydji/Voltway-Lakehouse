@@ -3,7 +3,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import xml.etree.ElementTree as ET
 import csv, io, json
-from datetime import datetime
+from datetime import datetime, timezone
 import re
 
 
@@ -74,12 +74,12 @@ def read_text(key):
     return s3.get_object(Bucket=bucket, Key=key)["Body"].read().decode("utf-8")
 
 
-def write_parquet_byte(rows,source_file=None, ingest_date=None, source_system=None):
+def write_parquet_byte(rows,source_file=None, ingest_ts=None, source_system=None):
     fields = sorted({k for row in rows for k in row})
     table = pa.table({field : pa.array([row.get(field) for row in rows],type=pa.string())
                       for field in fields })
-    if ingest_date is not None:
-        table = table.append_column("_ingest_date", pa.array([ingest_date] * len(rows), type= pa.string()))
+    if ingest_ts is not None:
+        table = table.append_column("_ingest_ts", pa.array([ingest_ts] * len(rows), type= pa.string()))
     if source_system is not None:
         table = table.append_column("_source_system", pa.array([source_system] * len(rows), type= pa.string()))
     if source_file is not None:
@@ -95,7 +95,7 @@ def load_references(reference):
     prefix = prefix.format(reference=reference)
     out_key = f"bronze/reference/{reference}.parquet"
     source_system = str(config["sources"]["reference"]["references"][reference]["source_system"])
-    ref = write_parquet_byte(parser(read_text(prefix)), ingest_date = str(datetime.now().date().isoformat()), source_system=source_system, source_file=f"s3a://{bucket}/{prefix}")
+    ref = write_parquet_byte(parser(read_text(prefix)), ingest_ts = str(datetime.now(timezone.utc).isoformat()), source_system=source_system, source_file=f"s3a://{bucket}/{prefix}")
     s3.put_object(Bucket=bucket, Key=out_key, Body=ref)
 
 
@@ -118,19 +118,15 @@ def load(source,dt=None, city=None, hr=None):
             row['_source_file'] = f"s3a://{bucket}/{key}"
             rows.append(row)
 
+    ingest_ts = datetime.now(timezone.utc).isoformat()
 
-    if dt is None and city:
-        dt = str(datetime.now().date().isoformat())
-        out_key = f"bronze/{source}/ingest_date={dt}/{city}/part-0.parquet"
-    elif source == "telemetry":
-        out_key = f"bronze/{source}/city={city}/ingest_date={str(dt)}/hour={hr}/part-0.parquet"
-    else:
-        out_key = f"bronze/{source}/ingest_date={str(dt)}/part-0.parquet"
+    out_key = prefix.replace("landing", "bronze", 1) + "part-0.parquet"
+
 
     s3.put_object(
         Bucket=bucket,
         Key=out_key,
-        Body=write_parquet_byte(rows,ingest_date=dt, source_system=str(config["sources"][source]["source_system"])),
+        Body=write_parquet_byte(rows,ingest_ts=ingest_ts, source_system=str(config["sources"][source]["source_system"])),
     )
 
 

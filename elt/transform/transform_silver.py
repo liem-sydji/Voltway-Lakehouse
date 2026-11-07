@@ -54,17 +54,17 @@ def transform_plans():
     plans = spark.read.parquet(f"s3a://{bucket}/bronze/reference/plans.parquet")
     float_cols = ["monthly_fee_eur", "per_minute_eur","unluck_fee_eur"]
     plans = plans.select([col(c).cast(DecimalType(10,2)) if c in float_cols else col(c) for c in plans.columns])
-    date_cols = ["valid_from", "valid_to"]
-    plans = plans.select([try_to_date(col(c)) if c in date_cols else col(c) for c in plans.columns ])
+    plans = plans.withColumn("valid_from", try_to_date(col("valid_from"),"yyyy-MM-dd"))
+    plans = plans.withColumn("valid_to", try_to_date(col("valid_to"),"yyyy-MM-dd"))
     plans = plans.withColumn("version", col("version").cast(IntegerType()))
     plans.write.parquet(f"s3a://{bucket}/silver/plans/",mode="overwrite")
 
 
 def transform_zones():
     zones = spark.read.parquet(f"s3a://{bucket}/bronze/reference/zones.parquet")
-    date_cols = ["valid_from", "valid_to"]
     float_cols = ["centroid_lat", "centroid_lon"]
-    zones = zones.select([try_to_date(col(c)) if c in date_cols else col(c) for c in zones.columns])
+    zones = zones.withColumn("valid_from", try_to_date(col("valid_from"),"yyyy-MM-dd"))
+    zones = zones.withColumn("valid_to", try_to_date(col("valid_to"),"yyyy-MM-dd"))
     zones = zones.select([col(c).cast(FloatType()) if c in float_cols else col(c) for c in zones.columns])
     zones = zones.withColumn("is_current", col("is_current").cast(BooleanType()))
     zones = zones.withColumn("area_km2", col("area_km2").cast(DecimalType(10,2)))
@@ -78,8 +78,9 @@ def transform_riders_cdc():
     dlr = dlr.withColumn("_reject_reason",lit("invalid_fk_operator"))\
         .withColumn("_reject_ts", current_timestamp())\
         .withColumn("_table", lit("riders_cdc"))
-    dlr = dlr.withColumn("riders_event_date",to_date(col("op_ts")))
+    dlr = dlr.withColumn("riders_event_date",to_timestamp(col("op_ts")))
     riders_cdc = riders_cdc.join(broadcast(operators), on="operator_id", how="left_semi")
+    riders_cdc = riders_cdc.withColumn("signup_date", to_date(col("signup_date")))
     riders_cdc = riders_cdc.withColumn("email", lower(trim(col("email"))))
     deleted_accounts_emails = riders_cdc.filter(col("op")=="D").select("email")
     deleted_emails_list = [c["email"] for c in deleted_accounts_emails.collect()]
@@ -90,8 +91,7 @@ def transform_riders_cdc():
     riders_cdc = riders_cdc.withColumn("marketing_consent", col("marketing_consent").cast(BooleanType()))
     riders_cdc = riders_cdc.withColumn("is_active", when(col("account_status") == "active",lit(True)).otherwise(lit(False)).cast(BooleanType()))
     riders_cdc = riders_cdc.withColumn("birth_year", col("birth_year").cast(IntegerType()))
-    riders_cdc = riders_cdc.withColumn("_ingest_date", to_date(col("_ingest_date"),"yyyy-MM-dd"))
-    riders_cdc = riders_cdc.drop("ingest_date")
+    riders_cdc = riders_cdc.withColumn("_ingest_ts", to_timestamp(col("_ingest_ts")))
     riders_cdc = riders_cdc.drop_duplicates()
 
     riders_cdc.write.parquet(f"s3a://{bucket}/silver/riders_cdc/",mode="overwrite")
@@ -100,16 +100,15 @@ def transform_riders_cdc():
 def transform_vehicles():
     vehicles = spark.read.parquet(f"s3a://{bucket}/bronze/vehicles/")
     operators = spark.read.parquet(f"s3a://{bucket}/silver/operators/")
+    vehicles= vehicles.withColumn("_ingest_ts", to_timestamp(col("_ingest_ts")))
     dlr = vehicles.join(broadcast(operators), on="operator_id", how="left_anti")
     dlr = dlr.withColumn("_reject_reason", lit("invalid_fk_operator")).withColumn("_reject_ts", current_timestamp()).withColumn("_table", lit("vehicles"))
     dlr = dlr.withColumn("purchase_date", to_date(col("purchase_date")))
-    vehicles = vehicles.dropDuplicates(["vehicle_id", "ingest_date"])
+    vehicles = vehicles.dropDuplicates(["vehicle_id", "snapshot_date"])
     vehicles = vehicles.withColumn("battery_wh", col("battery_wh").cast(IntegerType()))
     vehicles = vehicles.withColumn("top_speed_kph", col("top_speed_kph").cast(FloatType()))
     vehicles = vehicles.withColumn("odometer_km", col("odometer_km").cast(FloatType()))
     vehicles = vehicles.withColumn("purchase_date", to_date(col("purchase_date")))
-    vehicles = vehicles.drop("ingest_date")
-    vehicles = vehicles.withColumn("_ingest_date", to_date(col("_ingest_date"),"yyyy-MM-dd"))
     vehicles.write.parquet(f"s3a://{bucket}/silver/vehicles/",mode="overwrite")
     dlr.write.parquet(f"s3a://{bucket}/_quarantine/vehicles/",mode="overwrite")
 
@@ -128,28 +127,28 @@ def transform_maintenance():
     data = data.withColumn("returned_to_service_at",to_timestamp(col("returned_to_service_at")))
     data = data.withColumn("technician", when(col("technician")=="unknown",lit(None)).otherwise(col("technician")))
     data = data.withColumn("technician",initcap(trim(col("technician"))))
-    data = data.withColumn("_ingest_date", to_date(col("_ingest_date")))
-    data = data.drop("ingest_date")
+    data = data.withColumn("_ingest_ts", to_timestamp(col("_ingest_ts")))
 
     out_put_key = f"silver/maintenance/"
     data.write.parquet(f"s3a://{bucket}/{out_put_key}",mode="overwrite")
 
 def transform_weather():
     weather = spark.read.parquet(f"s3a://{bucket}/bronze/weather/")
-    date_columns = ["date", "period", "_ingest_date"]
+    date_columns = ["date", "period"]
     float_columns = ["precip_mm", "tmax_c", "tmin_c", "wind_kph"]
     weather = weather.select([to_date(col(c)).alias(c) if c in date_columns else col(c) for c in weather.columns])
     weather = weather.select([col(c).cast(FloatType()).alias(c) if c in float_columns else col(c) for c in weather.columns])
-    weather = weather.drop("ingest_date")
+    weather= weather.withColumn("_ingest_ts", to_timestamp(col("_ingest_ts")))
     weather = weather.withColumn("city", col("city_id"))
     weather.write.parquet(f"s3a://{bucket}/silver/weather/", mode="overwrite",partitionBy="city")
 
 def transform_rides():
 
     rides = spark.read.option("mergeSchema", "true").parquet(f"s3a://{bucket}/bronze/rides/")
-    cities =  spark.read.parquet(f"s3a://{bucket}/silver/city/")
+    rides = rides.withColumn("promo_code", when(col("promo_code") == "",lit(None)).otherwise(col("promo_code")))
+    cities =  spark.read.parquet(f"s3a://{bucket}/silver/cities/")
     float_columns= ["end_lat","end_lon","start_lat","start_lon","fare_amount"]
-    timestamp_columns = ["start_ts","end_ts", "updated_at"]
+    timestamp_columns = ["start_ts","end_ts", "updated_at","_ingest_ts"]
     rides = rides.withColumn("duration_s", col("duration_s").try_cast(IntegerType()))
     rides = rides.withColumns({c:col(c).try_cast(FloatType()) for c in float_columns})
     rides = rides.withColumn("city_id", trim(substring_index(col("_source_file"),"/",-1),lit("rides_0123456789-.csv")))
@@ -163,7 +162,6 @@ def transform_rides():
     w = Window.partitionBy("ride_id").orderBy(col("updated_at").desc_nulls_last())
     rides = rides.withColumn("_row_number", row_number().over(w)).filter(col("_row_number")==1)
     rides = rides.drop("_row_number")
-    rides = rides.withColumn("ingest_date", to_date(col("ingest_date")))
     dlq_1 = rides.filter((col("start_ts").isNull()) & (col("end_ts").isNull())).withColumns(
         {"_reject_ts": current_timestamp(),
          "_reject_reason": lit("Missing Start_ts and End_ts"),
@@ -181,7 +179,6 @@ def transform_rides():
     rides = rides.withColumn("ride_date", to_date(col("start_ts")))
     rides = rides.withColumn("duration_s",when(col("duration_s").isNull(),when(col("open_ride") == False,col("end_ts").cast(DoubleType())-col("start_ts").cast(DoubleType())).otherwise(lit(None))).otherwise(col("duration_s")))
     rides = rides.withColumn("is_test", col("is_test").cast(BooleanType()))
-    rides = rides.drop("ingest_date")
     rides = rides.withColumn("fare_amount_euros", when(col("currency")==lit("SEK"), col("fare_amount")*0.088).otherwise(col("fare_amount")))
     dlq = dlq_1.unionByName(dlq_2,allowMissingColumns=True)
 
@@ -198,8 +195,7 @@ def transform_payments():
     payments = payments.withColumn("amount",(col("amount_minor").cast(DecimalType())*0.01).cast(DecimalType(10,2)))
     payments = payments.withColumn("amount_euros", when(col("currency")==lit("SEK"), (col("amount")*0.088).cast(DecimalType(10,2)) ).otherwise(col("amount")))
     payments = payments.withColumn("ride_id", col("external_ref")).drop(col("external_ref"))
-    payments = payments.withColumn("_ingest_date", to_date(col("_ingest_date")))
-    payments = payments.drop("ingest_date")
+    payments = payments.withColumn("_ingest_ts", to_timestamp(col("_ingest_ts")))
     dlq = payments.join(broadcast(rides), on="ride_id", how="left_anti").withColumns({
         "_reject_reason":lit("Invalid ride_id"),
         "_reject_ts": current_timestamp(),
@@ -232,8 +228,7 @@ def transform_telemetry():
                                                 timestamp_millis(col("ts").cast(LongType()))).otherwise(
         col("ts").try_cast(TimestampType())))
     telemetry = telemetry.withColumn("event_date", to_date(col("ts")))
-    telemetry = telemetry.withColumn("_ingest_date", to_date(col("_ingest_date")))
-    telemetry = telemetry.drop("ingest_date")
+    telemetry = telemetry.withColumn("_ingest_ts", to_timestamp(col("_ingest_ts")))
     telemetry = telemetry.withColumn("battery", when(col("battery").rlike(r"^\d{1,2}\.\d{1}$"), col("battery").cast(DecimalType(10,2))*0.01).otherwise(col("battery").cast(DecimalType(10,4))))
 
     telemetry.write.parquet(f"s3a://{bucket}/silver/telemetry/",mode="overwrite", partitionBy="event_date")
